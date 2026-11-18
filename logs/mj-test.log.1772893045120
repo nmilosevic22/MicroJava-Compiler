@@ -1,0 +1,77 @@
+INFO  15:16:51,970 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:16:51,993 - #2 program
+INFO  15:16:51,993 - #18 Programcina
+INFO  15:16:51,993 - #18 int
+INFO  15:16:51,994 - #18 x
+INFO  15:16:51,995 - #10 ,
+INFO  15:16:51,996 - #18 y
+INFO  15:16:51,996 - #11 [
+INFO  15:16:51,996 - #12 ]
+INFO  15:16:51,996 - #7 ;
+INFO  15:16:51,997 - #3 {
+INFO  15:16:51,998 - #19 void
+INFO  15:16:51,998 - #18 main
+INFO  15:16:51,998 - #13 (
+INFO  15:16:51,998 - #14 )
+INFO  15:16:51,998 - #18 int
+INFO  15:16:51,998 - #18 x
+INFO  15:16:51,998 - #7 ;
+INFO  15:16:51,999 - #3 {
+INFO  15:16:51,999 - #4 }
+INFO  15:16:51,999 - #4 }
+INFO  15:16:52,003 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_var(
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_more(
+        VarDecl(
+         y
+          Brackets_true(
+          ) [Brackets_true]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclMore_more]
+    ) [VarDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_var]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_e(
+        ) [VarDeclListSingle_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           x
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  15:16:52,004 - =====================================================================
+INFO  15:16:52,009 - =====================================================================
+INFO  15:16:52,009 - Parsiranje uspesno zavrseno!

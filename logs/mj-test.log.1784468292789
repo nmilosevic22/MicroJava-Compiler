@@ -1,0 +1,35 @@
+INFO  15:37:14,891 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:37:14,918 - #2 program
+INFO  15:37:14,918 - #18 Programcina
+INFO  15:37:14,918 - #6 enum
+INFO  15:37:14,919 - #18 Color
+INFO  15:37:14,919 - #3 {
+INFO  15:37:14,920 - #18 a
+INFO  15:37:14,920 - #10 ,
+INFO  15:37:14,921 - #18 b
+INFO  15:37:14,921 - #9 =
+INFO  15:37:14,921 - #15 4
+INFO  15:37:14,921 - #10 ,
+INFO  15:37:14,921 - #18 c
+INFO  15:37:14,921 - #4 }
+INFO  15:37:14,922 - #7 ;
+INFO  15:37:14,922 - #6 enum
+INFO  15:37:14,923 - #18 Position
+INFO  15:37:14,923 - #3 {
+INFO  15:37:14,923 - #18 p
+INFO  15:37:14,923 - #10 ,
+INFO  15:37:14,923 - #18 q
+INFO  15:37:14,923 - #10 ,
+INFO  15:37:14,923 - #18 r
+INFO  15:37:14,923 - #4 }
+INFO  15:37:14,923 - #7 ;
+INFO  15:37:14,924 - #18 int
+INFO  15:37:14,924 - #18 x
+INFO  15:37:14,924 - #7 ;
+INFO  15:37:14,926 - #5 const
+INFO  15:37:14,928 - #18 int
+INFO  15:37:14,928 - #18 c
+INFO  15:37:14,929 - #7 ;
+ERROR 15:37:14,929 - 
+Sintaksna greska na liniji 6
+ERROR 15:37:14,929 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

@@ -1,0 +1,155 @@
+INFO  18:22:28,795 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:22:28,818 - #2 program
+INFO  18:22:28,818 - #18 Programcina
+INFO  18:22:28,818 - #6 enum
+INFO  18:22:28,819 - #18 enum_news
+INFO  18:22:28,819 - #3 {
+INFO  18:22:28,820 - #18 a
+INFO  18:22:28,820 - #10 ,
+INFO  18:22:28,821 - #18 b
+INFO  18:22:28,821 - #10 ,
+INFO  18:22:28,821 - #18 c
+INFO  18:22:28,821 - #4 }
+INFO  18:22:28,821 - #7 ;
+INFO  18:22:28,821 - #18 int
+INFO  18:22:28,822 - #18 x
+INFO  18:22:28,822 - #7 ;
+INFO  18:22:28,823 - #3 {
+INFO  18:22:28,824 - #19 void
+INFO  18:22:28,824 - #18 main
+INFO  18:22:28,824 - #13 (
+INFO  18:22:28,825 - #14 )
+INFO  18:22:28,825 - #18 char
+INFO  18:22:28,826 - #18 x
+INFO  18:22:28,827 - #7 ;
+INFO  18:22:28,827 - #18 int
+INFO  18:22:28,827 - #18 y
+INFO  18:22:28,827 - #11 [
+INFO  18:22:28,827 - #12 ]
+INFO  18:22:28,827 - #7 ;
+INFO  18:22:28,828 - #3 {
+INFO  18:22:28,828 - #18 newadsda
+INFO  18:22:28,828 - #9 =
+INFO  18:22:28,829 - #15 3
+INFO  18:22:28,830 - #7 ;
+INFO  18:22:28,832 - #4 }
+INFO  18:22:28,833 - #4 }
+INFO  18:22:28,838 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       enum_news
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl(
+             x
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator(
+             newadsda
+              IdentList_e(
+              ) [IdentList_e]
+            ) [Designator]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_num(
+                       3
+                      ) [Factor_num]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  18:22:28,838 - =====================================================================

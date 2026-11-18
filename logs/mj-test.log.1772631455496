@@ -1,0 +1,6 @@
+INFO  14:32:38,038 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:32:38,072 - #18 program TEST
+ERROR 14:32:38,072 - 
+Sintaksna greska na liniji 1
+ERROR 14:32:38,072 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 1
+ERROR 14:32:38,073 - Parsiranje nije vratilo validan AST.

@@ -1,0 +1,259 @@
+INFO  21:54:29,237 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:54:29,258 - #2 program
+INFO  21:54:29,258 - #18 Programcina
+INFO  21:54:29,258 - #6 enum
+INFO  21:54:29,259 - #18 enum_news
+INFO  21:54:29,259 - #3 {
+INFO  21:54:29,259 - #18 a
+INFO  21:54:29,260 - #10 ,
+INFO  21:54:29,261 - #18 b
+INFO  21:54:29,261 - #10 ,
+INFO  21:54:29,261 - #18 c
+INFO  21:54:29,261 - #4 }
+INFO  21:54:29,262 - #7 ;
+INFO  21:54:29,262 - #18 int
+INFO  21:54:29,262 - #18 x
+INFO  21:54:29,263 - #7 ;
+INFO  21:54:29,264 - #3 {
+INFO  21:54:29,264 - #19 void
+INFO  21:54:29,264 - #18 main
+INFO  21:54:29,264 - #13 (
+INFO  21:54:29,265 - #14 )
+INFO  21:54:29,265 - #18 int
+INFO  21:54:29,265 - #18 z
+INFO  21:54:29,265 - #7 ;
+INFO  21:54:29,265 - #18 int
+INFO  21:54:29,265 - #18 y
+INFO  21:54:29,267 - #11 [
+INFO  21:54:29,267 - #12 ]
+INFO  21:54:29,267 - #7 ;
+INFO  21:54:29,267 - #3 {
+INFO  21:54:29,267 - #18 y
+INFO  21:54:29,267 - #11 [
+INFO  21:54:29,268 - #15 5
+INFO  21:54:29,268 - #12 ]
+INFO  21:54:29,270 - #9 =
+INFO  21:54:29,270 - #15 2
+INFO  21:54:29,271 - #29 +
+INFO  21:54:29,271 - #18 x
+INFO  21:54:29,272 - #30 *
+INFO  21:54:29,272 - #18 y
+INFO  21:54:29,273 - #30 *
+INFO  21:54:29,273 - #18 z
+INFO  21:54:29,273 - #30 *
+INFO  21:54:29,273 - #18 q
+INFO  21:54:29,274 - #30 *
+INFO  21:54:29,274 - #18 w
+INFO  21:54:29,274 - #7 ;
+INFO  21:54:29,275 - #4 }
+INFO  21:54:29,276 - #4 }
+INFO  21:54:29,281 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       enum_news
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             z
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator(
+              IdentName(
+               y
+              ) [IdentName]
+              IdentList_expr(
+                Expr_arith(
+                  CondFact_expr(
+                    ExprTern_nonMinus(
+                      Term(
+                        Factor_num(
+                         5
+                        ) [Factor_num]
+                        MulFactor_e(
+                        ) [MulFactor_e]
+                      ) [Term]
+                      AddTerm_e(
+                      ) [AddTerm_e]
+                    ) [ExprTern_nonMinus]
+                  ) [CondFact_expr]
+                ) [Expr_arith]
+              ) [IdentList_expr]
+            ) [Designator]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_num(
+                       2
+                      ) [Factor_num]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_add(
+                      AddTerm_e(
+                      ) [AddTerm_e]
+                      Addop_plus(
+                      ) [Addop_plus]
+                      Term(
+                        Factor_des(
+                          Designator(
+                            IdentName(
+                             x
+                            ) [IdentName]
+                            IdentList_e(
+                            ) [IdentList_e]
+                          ) [Designator]
+                        ) [Factor_des]
+                        MulFactor_mul(
+                          MulFactor_mul(
+                            MulFactor_mul(
+                              MulFactor_mul(
+                                MulFactor_e(
+                                ) [MulFactor_e]
+                                Mulop_mul(
+                                ) [Mulop_mul]
+                                Factor_des(
+                                  Designator(
+                                    IdentName(
+                                     y
+                                    ) [IdentName]
+                                    IdentList_e(
+                                    ) [IdentList_e]
+                                  ) [Designator]
+                                ) [Factor_des]
+                              ) [MulFactor_mul]
+                              Mulop_mul(
+                              ) [Mulop_mul]
+                              Factor_des(
+                                Designator(
+                                  IdentName(
+                                   z
+                                  ) [IdentName]
+                                  IdentList_e(
+                                  ) [IdentList_e]
+                                ) [Designator]
+                              ) [Factor_des]
+                            ) [MulFactor_mul]
+                            Mulop_mul(
+                            ) [Mulop_mul]
+                            Factor_des(
+                              Designator(
+                                IdentName(
+                                 q
+                                ) [IdentName]
+                                IdentList_e(
+                                ) [IdentList_e]
+                              ) [Designator]
+                            ) [Factor_des]
+                          ) [MulFactor_mul]
+                          Mulop_mul(
+                          ) [Mulop_mul]
+                          Factor_des(
+                            Designator(
+                              IdentName(
+                               w
+                              ) [IdentName]
+                              IdentList_e(
+                              ) [IdentList_e]
+                            ) [Designator]
+                          ) [Factor_des]
+                        ) [MulFactor_mul]
+                      ) [Term]
+                    ) [AddTerm_add]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  21:54:29,281 - =====================================================================
+ERROR 21:54:29,286 - Type mismatch on right side expression
+ERROR 21:54:29,286 - Variable is not declared : q
+ERROR 21:54:29,286 - Variable is not declared : w
+INFO  21:54:29,286 - =====================================================================
+ERROR 21:54:29,287 - Parsiranje NIJE uspesno zavrseno!

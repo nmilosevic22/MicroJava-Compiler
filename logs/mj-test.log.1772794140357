@@ -1,0 +1,69 @@
+INFO  11:47:57,961 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:47:57,988 - #2 program
+INFO  11:47:57,988 - #18 Programcina
+INFO  11:47:57,988 - #5 const
+INFO  11:47:57,988 - #18 int
+INFO  11:47:57,988 - #18 pi
+INFO  11:47:57,989 - #9 =
+INFO  11:47:57,989 - #15 3
+INFO  11:47:57,989 - #7 ;
+INFO  11:47:58,007 - #18 char
+INFO  11:47:58,020 - #18 carr
+INFO  11:47:58,021 - #11 [
+INFO  11:47:58,021 - #12 ]
+INFO  11:47:58,021 - #7 ;
+INFO  11:47:58,022 - #3 {
+INFO  11:47:58,023 - #19 void
+INFO  11:47:58,023 - #18 main
+INFO  11:47:58,023 - #13 (
+INFO  11:47:58,024 - #14 )
+INFO  11:47:58,024 - #3 {
+INFO  11:47:58,026 - #4 }
+INFO  11:47:58,026 - #4 }
+INFO  11:47:58,030 - Program(
+ Programcina
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Constant_num(
+         3
+        ) [Constant_num]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl(
+         carr
+          Brackets_true(
+          ) [Brackets_true]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_const]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  11:47:58,031 - =====================================================================
+INFO  11:47:58,031 - Parsiranje uspesno zavrseno!

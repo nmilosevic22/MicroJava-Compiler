@@ -1,0 +1,187 @@
+INFO  21:24:17,656 - Compiling source file: C:\Users\milos\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:24:17,676 - #2 program
+INFO  21:24:17,676 - #18 Programcina
+INFO  21:24:17,676 - #6 enum
+INFO  21:24:17,676 - #18 Color
+INFO  21:24:17,676 - #3 {
+INFO  21:24:17,677 - #18 a
+INFO  21:24:17,677 - #10 ,
+INFO  21:24:17,677 - #18 b
+INFO  21:24:17,677 - #9 =
+INFO  21:24:17,677 - #15 4
+INFO  21:24:17,677 - #10 ,
+INFO  21:24:17,678 - #18 c
+INFO  21:24:17,678 - #4 }
+INFO  21:24:17,678 - #7 ;
+INFO  21:24:17,678 - #6 enum
+INFO  21:24:17,679 - #18 Position
+INFO  21:24:17,679 - #3 {
+INFO  21:24:17,679 - #18 p
+INFO  21:24:17,679 - #10 ,
+INFO  21:24:17,679 - #18 q
+INFO  21:24:17,679 - #10 ,
+INFO  21:24:17,679 - #18 r
+INFO  21:24:17,679 - #4 }
+INFO  21:24:17,679 - #7 ;
+INFO  21:24:17,679 - #3 {
+INFO  21:24:17,680 - #19 void
+INFO  21:24:17,680 - #18 main
+INFO  21:24:17,680 - #13 (
+INFO  21:24:17,680 - #14 )
+INFO  21:24:17,680 - #18 int
+INFO  21:24:17,680 - #18 y
+INFO  21:24:17,681 - #11 [
+INFO  21:24:17,681 - #12 ]
+INFO  21:24:17,681 - #7 ;
+INFO  21:24:17,682 - #18 Color
+INFO  21:24:17,682 - #18 curEnum
+INFO  21:24:17,682 - #7 ;
+INFO  21:24:17,683 - #3 {
+INFO  21:24:17,683 - #18 curEnum
+INFO  21:24:17,683 - #9 =
+INFO  21:24:17,683 - #18 int
+INFO  21:24:17,683 - #27 .
+INFO  21:24:17,683 - #18 a
+INFO  21:24:17,683 - #7 ;
+INFO  21:24:17,686 - #4 }
+INFO  21:24:17,686 - #4 }
+INFO  21:24:17,689 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       Color
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           4
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_enum(
+      EnumDeclList(
+        EnumName(
+         Position
+        ) [EnumName]
+        EnumDecl(
+         p
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           q
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_more(
+            EnumDecl(
+             r
+              NumAssign_e(
+              ) [NumAssign_e]
+            ) [EnumDecl]
+            EnumDeclMore_e(
+            ) [EnumDeclMore_e]
+          ) [EnumDeclMore_more]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_enum]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             y
+              Brackets_true(
+              ) [Brackets_true]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           Color
+          ) [Type]
+          VarDecl(
+           curEnum
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator_ident(
+             curEnum
+            ) [Designator_ident]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_des(
+                        Designator_dotIdent(
+                          Designator_ident(
+                           int
+                          ) [Designator_ident]
+                         a
+                        ) [Designator_dotIdent]
+                      ) [Factor_des]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  21:24:17,690 - =====================================================================
+ERROR 21:24:17,693 - int is not an enum type. na liniji 9
+INFO  21:24:17,694 - =====================================================================
+ERROR 21:24:17,694 - Parsiranje NIJE uspesno zavrseno!

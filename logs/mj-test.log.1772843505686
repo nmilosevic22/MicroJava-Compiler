@@ -1,0 +1,83 @@
+INFO  01:28:34,415 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  01:28:34,440 - #2 program
+INFO  01:28:34,440 - #18 Programcina
+INFO  01:28:34,440 - #18 int
+INFO  01:28:34,441 - #18 x
+INFO  01:28:34,442 - #7 ;
+INFO  01:28:34,442 - #18 char
+INFO  01:28:34,443 - #18 c
+INFO  01:28:34,443 - #7 ;
+INFO  01:28:34,443 - #18 bool
+INFO  01:28:34,443 - #18 y
+INFO  01:28:34,443 - #7 ;
+INFO  01:28:34,443 - #3 {
+INFO  01:28:34,444 - #19 void
+INFO  01:28:34,444 - #18 main
+INFO  01:28:34,444 - #13 (
+INFO  01:28:34,445 - #14 )
+INFO  01:28:34,445 - #3 {
+INFO  01:28:34,445 - #4 }
+INFO  01:28:34,446 - #4 }
+INFO  01:28:34,448 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_var(
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl(
+         c
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_var(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        ConVarEnumDeclList_e(
+        ) [ConVarEnumDeclList_e]
+      ) [ConVarEnumDeclList_var]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_var]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  01:28:34,448 - =====================================================================
+INFO  01:28:34,453 - =====================================================================
+INFO  01:28:34,454 - Parsiranje uspesno zavrseno!

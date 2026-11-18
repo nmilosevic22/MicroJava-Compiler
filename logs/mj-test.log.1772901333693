@@ -1,0 +1,162 @@
+INFO  17:35:25,272 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:35:25,293 - #2 program
+INFO  17:35:25,293 - #18 Programcina
+INFO  17:35:25,295 - #6 enum
+INFO  17:35:25,296 - #18 enum_news
+INFO  17:35:25,296 - #3 {
+INFO  17:35:25,296 - #18 a
+INFO  17:35:25,296 - #10 ,
+INFO  17:35:25,297 - #18 b
+INFO  17:35:25,297 - #10 ,
+INFO  17:35:25,297 - #18 c
+INFO  17:35:25,297 - #4 }
+INFO  17:35:25,298 - #7 ;
+INFO  17:35:25,298 - #5 const
+INFO  17:35:25,298 - #18 int
+INFO  17:35:25,298 - #18 x
+INFO  17:35:25,299 - #9 =
+INFO  17:35:25,299 - #15 5
+INFO  17:35:25,299 - #7 ;
+INFO  17:35:25,300 - #3 {
+INFO  17:35:25,301 - #19 void
+INFO  17:35:25,301 - #18 main
+INFO  17:35:25,301 - #13 (
+INFO  17:35:25,304 - #14 )
+INFO  17:35:25,304 - #18 char
+INFO  17:35:25,304 - #18 x
+INFO  17:35:25,304 - #7 ;
+INFO  17:35:25,306 - #18 int
+INFO  17:35:25,306 - #18 y
+INFO  17:35:25,306 - #11 [
+INFO  17:35:25,306 - #12 ]
+INFO  17:35:25,306 - #7 ;
+INFO  17:35:25,307 - #3 {
+INFO  17:35:25,307 - #18 x
+INFO  17:35:25,307 - #9 =
+INFO  17:35:25,309 - #15 3
+INFO  17:35:25,310 - #7 ;
+INFO  17:35:25,312 - #4 }
+INFO  17:35:25,314 - #4 }
+INFO  17:35:25,317 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       enum_news
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_const(
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         x
+          Constant_num(
+           5
+          ) [Constant_num]
+        ) [ConDecl]
+        ConDeclElse_e(
+        ) [ConDeclElse_e]
+      ) [ConDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_const]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl(
+             x
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator(
+             x
+              IdentList_e(
+              ) [IdentList_e]
+            ) [Designator]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_num(
+                       3
+                      ) [Factor_num]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  17:35:25,318 - =====================================================================
+ERROR 17:35:25,322 - Type mismatch between x and type of 3 na liniji 9
+INFO  17:35:25,323 - =====================================================================
+ERROR 17:35:25,323 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,85 @@
+INFO  15:18:17,299 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:18:17,319 - #2 program
+INFO  15:18:17,319 - #18 Programcina
+INFO  15:18:17,319 - #18 int
+INFO  15:18:17,320 - #18 x
+INFO  15:18:17,320 - #7 ;
+INFO  15:18:17,321 - #3 {
+INFO  15:18:17,322 - #19 void
+INFO  15:18:17,323 - #18 main
+INFO  15:18:17,323 - #13 (
+INFO  15:18:17,323 - #14 )
+INFO  15:18:17,323 - #18 int
+INFO  15:18:17,324 - #18 x
+INFO  15:18:17,324 - #7 ;
+INFO  15:18:17,324 - #18 char
+INFO  15:18:17,324 - #18 c
+INFO  15:18:17,324 - #11 [
+INFO  15:18:17,324 - #12 ]
+INFO  15:18:17,324 - #7 ;
+INFO  15:18:17,325 - #3 {
+INFO  15:18:17,325 - #4 }
+INFO  15:18:17,325 - #4 }
+INFO  15:18:17,328 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_var(
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_var]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             x
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl(
+           c
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  15:18:17,330 - =====================================================================
+INFO  15:18:17,334 - =====================================================================
+INFO  15:18:17,335 - Parsiranje uspesno zavrseno!

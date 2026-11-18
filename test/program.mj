@@ -1,0 +1,26 @@
+program Programcina
+
+int a[];
+int b;
+int c;
+	
+{
+	void main()	
+
+	{
+		
+		a = new int[4];
+		
+		a[0] = 1;
+		a[2] = 3;
+		a[3] = 92;
+		
+		c = 5;
+		
+		b = a.max();
+
+		print(b);
+		print(c);
+		
+	}
+}

@@ -1,0 +1,107 @@
+INFO  12:13:36,033 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:13:36,052 - #2 program
+INFO  12:13:36,052 - #18 Programcina
+INFO  12:13:36,052 - #5 const
+INFO  12:13:36,052 - #18 int
+INFO  12:13:36,052 - #18 pi
+INFO  12:13:36,053 - #9 =
+INFO  12:13:36,053 - #15 3
+INFO  12:13:36,053 - #7 ;
+INFO  12:13:36,054 - #18 char
+INFO  12:13:36,055 - #18 carr
+INFO  12:13:36,055 - #11 [
+INFO  12:13:36,055 - #12 ]
+INFO  12:13:36,055 - #7 ;
+INFO  12:13:36,055 - #3 {
+INFO  12:13:36,057 - #19 void
+INFO  12:13:36,057 - #18 main
+INFO  12:13:36,057 - #13 (
+INFO  12:13:36,057 - #14 )
+INFO  12:13:36,057 - #3 {
+INFO  12:13:36,058 - #18 a
+INFO  12:13:36,058 - #9 =
+INFO  12:13:36,058 - #18 b
+INFO  12:13:36,060 - #7 ;
+INFO  12:13:36,061 - #4 }
+INFO  12:13:36,062 - #4 }
+INFO  12:13:36,065 - Program(
+ Programcina
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Constant_num(
+         3
+        ) [Constant_num]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl(
+         carr
+          Brackets_true(
+          ) [Brackets_true]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_const]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator(
+             a
+              IdentList_e(
+              ) [IdentList_e]
+            ) [Designator]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_relopExpr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_des(
+                        Designator(
+                         b
+                          IdentList_e(
+                          ) [IdentList_e]
+                        ) [Designator]
+                      ) [Factor_des]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_relopExpr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:13:36,065 - =====================================================================
+INFO  12:13:36,065 - Parsiranje uspesno zavrseno!

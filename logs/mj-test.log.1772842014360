@@ -1,0 +1,75 @@
+INFO  00:53:23,453 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:53:23,475 - #2 program
+INFO  00:53:23,476 - #18 Programcina
+INFO  00:53:23,476 - #5 const
+INFO  00:53:23,477 - #18 int
+INFO  00:53:23,477 - #18 pi
+INFO  00:53:23,478 - #9 =
+INFO  00:53:23,479 - #15 3
+INFO  00:53:23,479 - #7 ;
+INFO  00:53:23,480 - #5 const
+INFO  00:53:23,480 - #18 int
+INFO  00:53:23,480 - #18 pi
+INFO  00:53:23,480 - #9 =
+INFO  00:53:23,481 - #15 5
+INFO  00:53:23,481 - #7 ;
+INFO  00:53:23,481 - #3 {
+INFO  00:53:23,481 - #19 void
+INFO  00:53:23,481 - #18 main
+INFO  00:53:23,481 - #13 (
+INFO  00:53:23,482 - #14 )
+INFO  00:53:23,482 - #3 {
+INFO  00:53:23,483 - #4 }
+INFO  00:53:23,483 - #4 }
+INFO  00:53:23,488 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Constant_num(
+         3
+        ) [Constant_num]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_const(
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         pi
+          Constant_num(
+           5
+          ) [Constant_num]
+        ) [ConDecl]
+        ConDeclElse_e(
+        ) [ConDeclElse_e]
+      ) [ConDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_const]
+  ) [ConVarEnumDeclList_const]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  00:53:23,489 - =====================================================================
+ERROR 00:53:23,494 - Constant already defined : pi na liniji 4
+INFO  00:53:23,494 - =====================================================================
+ERROR 00:53:23,495 - Parsiranje NIJE uspesno zavrseno!

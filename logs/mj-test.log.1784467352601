@@ -1,0 +1,200 @@
+INFO  15:21:11,570 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:21:11,592 - #2 program
+INFO  15:21:11,592 - #18 Programcina
+INFO  15:21:11,592 - #6 enum
+INFO  15:21:11,593 - #18 Color
+INFO  15:21:11,593 - #3 {
+INFO  15:21:11,594 - #18 a
+INFO  15:21:11,594 - #10 ,
+INFO  15:21:11,595 - #18 b
+INFO  15:21:11,595 - #9 =
+INFO  15:21:11,595 - #15 4
+INFO  15:21:11,595 - #10 ,
+INFO  15:21:11,595 - #18 c
+INFO  15:21:11,596 - #4 }
+INFO  15:21:11,597 - #7 ;
+INFO  15:21:11,599 - #6 enum
+INFO  15:21:11,600 - #18 Position
+INFO  15:21:11,600 - #3 {
+INFO  15:21:11,600 - #18 p
+INFO  15:21:11,600 - #10 ,
+INFO  15:21:11,601 - #18 q
+INFO  15:21:11,601 - #10 ,
+INFO  15:21:11,601 - #18 r
+INFO  15:21:11,603 - #4 }
+INFO  15:21:11,603 - #7 ;
+INFO  15:21:11,603 - #18 int
+INFO  15:21:11,603 - #18 x
+INFO  15:21:11,604 - #7 ;
+INFO  15:21:11,606 - #3 {
+INFO  15:21:11,607 - #19 void
+INFO  15:21:11,607 - #18 main
+INFO  15:21:11,607 - #13 (
+INFO  15:21:11,608 - #14 )
+INFO  15:21:11,608 - #18 int
+INFO  15:21:11,608 - #18 y
+INFO  15:21:11,608 - #11 [
+INFO  15:21:11,608 - #12 ]
+INFO  15:21:11,608 - #7 ;
+INFO  15:21:11,609 - #3 {
+INFO  15:21:11,609 - #18 y
+INFO  15:21:11,609 - #9 =
+INFO  15:21:11,609 - #20 new
+INFO  15:21:11,610 - #18 int
+INFO  15:21:11,611 - #11 [
+INFO  15:21:11,611 - #15 10
+INFO  15:21:11,611 - #12 ]
+INFO  15:21:11,612 - #7 ;
+INFO  15:21:11,613 - #4 }
+INFO  15:21:11,614 - #4 }
+INFO  15:21:11,619 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       Color
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           4
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_enum(
+      EnumDeclList(
+        EnumName(
+         Position
+        ) [EnumName]
+        EnumDecl(
+         p
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           q
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_more(
+            EnumDecl(
+             r
+              NumAssign_e(
+              ) [NumAssign_e]
+            ) [EnumDecl]
+            EnumDeclMore_e(
+            ) [EnumDeclMore_e]
+          ) [EnumDeclMore_more]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclList]
+      ConVarEnumDeclList_var(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           x
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        ConVarEnumDeclList_e(
+        ) [ConVarEnumDeclList_e]
+      ) [ConVarEnumDeclList_var]
+    ) [ConVarEnumDeclList_enum]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_e(
+        ) [VarDeclListSingle_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator_ident(
+             y
+            ) [Designator_ident]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_exprBrackets(
+                        Type(
+                         int
+                        ) [Type]
+                        Expr_arith(
+                          CondFact_expr(
+                            ExprTern_nonMinus(
+                              Term(
+                                Factor_num(
+                                 10
+                                ) [Factor_num]
+                                MulFactor_e(
+                                ) [MulFactor_e]
+                              ) [Term]
+                              AddTerm_e(
+                              ) [AddTerm_e]
+                            ) [ExprTern_nonMinus]
+                          ) [CondFact_expr]
+                        ) [Expr_arith]
+                      ) [Factor_exprBrackets]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  15:21:11,620 - =====================================================================
+INFO  15:21:11,625 - =====================================================================
+INFO  15:21:11,625 - Parsiranje uspesno zavrseno!

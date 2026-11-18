@@ -1,0 +1,46 @@
+INFO  17:30:28,885 - Compiling source file: C:\Users\milos\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:30:28,905 - #2 program
+INFO  17:30:28,905 - #18 Programcina
+INFO  17:30:28,905 - #18 int
+INFO  17:30:28,905 - #18 a
+INFO  17:30:28,906 - #11 [
+INFO  17:30:28,906 - #12 ]
+INFO  17:30:28,906 - #7 ;
+INFO  17:30:28,907 - #18 int
+INFO  17:30:28,907 - #18 b
+INFO  17:30:28,907 - #7 ;
+INFO  17:30:28,908 - #3 {
+INFO  17:30:28,908 - #19 void
+INFO  17:30:28,908 - #18 main
+INFO  17:30:28,908 - #13 (
+INFO  17:30:28,908 - #14 )
+INFO  17:30:28,908 - #3 {
+INFO  17:30:28,909 - #18 a
+INFO  17:30:28,909 - #9 =
+INFO  17:30:28,909 - #20 new
+INFO  17:30:28,909 - #18 int
+INFO  17:30:28,909 - #11 [
+INFO  17:30:28,909 - #15 4
+INFO  17:30:28,909 - #12 ]
+INFO  17:30:28,911 - #7 ;
+INFO  17:30:28,911 - #18 a
+INFO  17:30:28,911 - #11 [
+INFO  17:30:28,911 - #15 2
+INFO  17:30:28,912 - #12 ]
+INFO  17:30:28,912 - #9 =
+INFO  17:30:28,912 - #15 3
+INFO  17:30:28,912 - #7 ;
+INFO  17:30:28,912 - #18 a
+INFO  17:30:28,912 - #11 [
+INFO  17:30:28,912 - #15 3
+INFO  17:30:28,912 - #12 ]
+INFO  17:30:28,912 - #9 =
+INFO  17:30:28,912 - #15 3
+INFO  17:30:28,912 - #7 ;
+INFO  17:30:28,912 - #18 a
+INFO  17:30:28,912 - #11 [
+INFO  17:30:28,912 - #15 4
+INFO  17:30:28,912 - #9 =
+ERROR 17:30:28,912 - 
+Sintaksna greska na liniji 15
+ERROR 17:30:28,912 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

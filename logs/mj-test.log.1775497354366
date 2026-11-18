@@ -1,0 +1,156 @@
+INFO  19:41:10,631 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:41:10,660 - #2 program
+INFO  19:41:10,660 - #18 Programcina
+INFO  19:41:10,660 - #6 enum
+INFO  19:41:10,664 - #18 enum_news
+INFO  19:41:10,664 - #3 {
+INFO  19:41:10,666 - #18 a
+INFO  19:41:10,667 - #10 ,
+INFO  19:41:10,667 - #18 b
+INFO  19:41:10,668 - #10 ,
+INFO  19:41:10,668 - #18 c
+INFO  19:41:10,668 - #4 }
+INFO  19:41:10,669 - #7 ;
+INFO  19:41:10,669 - #18 int
+INFO  19:41:10,669 - #18 x
+INFO  19:41:10,670 - #7 ;
+INFO  19:41:10,671 - #3 {
+INFO  19:41:10,672 - #19 void
+INFO  19:41:10,672 - #18 main
+INFO  19:41:10,672 - #13 (
+INFO  19:41:10,672 - #14 )
+INFO  19:41:10,673 - #18 int
+INFO  19:41:10,673 - #18 x
+INFO  19:41:10,673 - #7 ;
+INFO  19:41:10,673 - #18 int
+INFO  19:41:10,674 - #18 y
+INFO  19:41:10,674 - #7 ;
+INFO  19:41:10,674 - #3 {
+INFO  19:41:10,674 - #18 z
+INFO  19:41:10,674 - #9 =
+INFO  19:41:10,675 - #15 3
+INFO  19:41:10,676 - #7 ;
+INFO  19:41:10,678 - #4 }
+INFO  19:41:10,679 - #4 }
+INFO  19:41:10,683 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       enum_news
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             x
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator(
+             z
+              IdentList_e(
+              ) [IdentList_e]
+            ) [Designator]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_num(
+                       3
+                      ) [Factor_num]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  19:41:10,683 - =====================================================================
+ERROR 19:41:10,690 - Variable not in symbol tablez na liniji 9
+INFO  19:41:10,690 - =====================================================================
+ERROR 19:41:10,690 - Parsiranje NIJE uspesno zavrseno!

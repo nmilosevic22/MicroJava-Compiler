@@ -1,0 +1,77 @@
+INFO  12:46:12,648 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:46:12,671 - #2 program
+INFO  12:46:12,671 - #18 Programcina
+INFO  12:46:12,671 - #6 enum
+INFO  12:46:12,672 - #18 x
+INFO  12:46:12,672 - #3 {
+INFO  12:46:12,673 - #18 a
+INFO  12:46:12,673 - #9 =
+INFO  12:46:12,673 - #15 3
+INFO  12:46:12,673 - #10 ,
+INFO  12:46:12,673 - #18 b
+INFO  12:46:12,673 - #9 =
+INFO  12:46:12,673 - #15 2
+INFO  12:46:12,673 - #10 ,
+INFO  12:46:12,674 - #18 c
+INFO  12:46:12,674 - #4 }
+INFO  12:46:12,675 - #7 ;
+INFO  12:46:12,675 - #3 {
+INFO  12:46:12,675 - #19 void
+INFO  12:46:12,675 - #18 main
+INFO  12:46:12,675 - #13 (
+INFO  12:46:12,676 - #14 )
+INFO  12:46:12,676 - #3 {
+INFO  12:46:12,677 - #4 }
+INFO  12:46:12,678 - #4 }
+INFO  12:46:12,680 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       x
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_num(
+         3
+        ) [NumAssign_num]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           2
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:46:12,680 - =====================================================================
+ERROR 12:46:12,689 - Consant already defined in enum: c , 3 na liniji 3
+INFO  12:46:12,689 - =====================================================================
+ERROR 12:46:12,689 - Parsiranje NIJE uspesno zavrseno!

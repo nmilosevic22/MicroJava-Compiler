@@ -1,0 +1,42 @@
+INFO  15:34:41,513 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:34:41,535 - #2 program
+INFO  15:34:41,535 - #18 Programcina
+INFO  15:34:41,535 - #6 enum
+INFO  15:34:41,536 - #18 Color
+INFO  15:34:41,536 - #3 {
+INFO  15:34:41,537 - #18 a
+INFO  15:34:41,537 - #10 ,
+INFO  15:34:41,538 - #18 b
+INFO  15:34:41,538 - #9 =
+INFO  15:34:41,539 - #15 4
+INFO  15:34:41,539 - #10 ,
+INFO  15:34:41,539 - #18 c
+INFO  15:34:41,539 - #4 }
+INFO  15:34:41,539 - #7 ;
+INFO  15:34:41,539 - #6 enum
+INFO  15:34:41,541 - #18 Position
+INFO  15:34:41,541 - #3 {
+INFO  15:34:41,541 - #18 p
+INFO  15:34:41,541 - #10 ,
+INFO  15:34:41,541 - #18 q
+INFO  15:34:41,541 - #10 ,
+INFO  15:34:41,541 - #18 r
+INFO  15:34:41,541 - #4 }
+INFO  15:34:41,541 - #7 ;
+INFO  15:34:41,541 - #18 int
+INFO  15:34:41,541 - #18 x
+INFO  15:34:41,542 - #7 ;
+INFO  15:34:41,543 - #3 {
+INFO  15:34:41,544 - #19 void
+INFO  15:34:41,544 - #18 main
+INFO  15:34:41,544 - #13 (
+INFO  15:34:41,544 - #14 )
+INFO  15:34:41,544 - #18 int
+INFO  15:34:41,545 - #18 y
+INFO  15:34:41,545 - #11 [
+INFO  15:34:41,545 - #12 ]
+INFO  15:34:41,545 - #7 ;
+INFO  15:34:41,546 - #5 const
+ERROR 15:34:41,546 - 
+Sintaksna greska na liniji 8
+ERROR 15:34:41,546 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

@@ -1,0 +1,73 @@
+INFO  12:47:28,197 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:47:28,221 - #2 program
+INFO  12:47:28,221 - #18 Programcina
+INFO  12:47:28,221 - #6 enum
+INFO  12:47:28,221 - #18 x
+INFO  12:47:28,222 - #3 {
+INFO  12:47:28,222 - #18 a
+INFO  12:47:28,222 - #10 ,
+INFO  12:47:28,223 - #18 b
+INFO  12:47:28,223 - #9 =
+INFO  12:47:28,223 - #15 2
+INFO  12:47:28,223 - #10 ,
+INFO  12:47:28,223 - #18 c
+INFO  12:47:28,223 - #4 }
+INFO  12:47:28,224 - #7 ;
+INFO  12:47:28,224 - #3 {
+INFO  12:47:28,226 - #19 void
+INFO  12:47:28,226 - #18 main
+INFO  12:47:28,226 - #13 (
+INFO  12:47:28,226 - #14 )
+INFO  12:47:28,226 - #3 {
+INFO  12:47:28,228 - #4 }
+INFO  12:47:28,228 - #4 }
+INFO  12:47:28,233 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       x
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           2
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:47:28,233 - =====================================================================
+INFO  12:47:28,237 - =====================================================================
+INFO  12:47:28,238 - Parsiranje uspesno zavrseno!

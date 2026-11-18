@@ -1,0 +1,15 @@
+INFO  17:32:32,915 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:32:32,941 - #2 program
+INFO  17:32:32,941 - #18 Programcina
+INFO  17:32:32,941 - #18 int
+INFO  17:32:32,941 - #18 x
+INFO  17:32:32,944 - #7 ;
+INFO  17:32:32,947 - #3 {
+INFO  17:32:32,948 - #19 void
+INFO  17:32:32,948 - #18 main
+INFO  17:32:32,948 - #13 (
+INFO  17:32:32,948 - #14 )
+INFO  17:32:32,948 - #3 {
+ERROR 17:32:32,948 - 
+Sintaksna greska na liniji 6
+ERROR 17:32:32,948 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

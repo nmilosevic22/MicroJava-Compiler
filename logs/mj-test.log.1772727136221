@@ -1,0 +1,14 @@
+INFO  17:11:34,201 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:11:34,221 - #2 program
+INFO  17:11:34,221 - #18 Programcina
+INFO  17:11:34,221 - #3 {
+INFO  17:11:34,222 - #4 }
+INFO  17:11:34,223 - Program(
+ Programcina
+  ConVarEnumDeclList_e(
+  ) [ConVarEnumDeclList_e]
+  MethodDeclList_e(
+  ) [MethodDeclList_e]
+) [Program]
+INFO  17:11:34,223 - =====================================================================
+INFO  17:11:34,223 - Parsiranje uspesno zavrseno!

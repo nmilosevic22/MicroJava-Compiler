@@ -1,0 +1,5 @@
+INFO  16:27:51,859 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:27:52,675 - #18 program Programcina
+ERROR 16:27:52,675 - 
+Sintaksna greska na liniji 1
+ERROR 16:27:52,675 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 1

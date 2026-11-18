@@ -1,0 +1,19 @@
+INFO  17:35:33,701 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:35:33,724 - #2 program
+INFO  17:35:33,724 - #18 Programcina
+INFO  17:35:33,724 - #6 enum
+INFO  17:35:33,724 - #18 enum_news
+INFO  17:35:33,725 - #3 {
+INFO  17:35:33,725 - #18 a
+INFO  17:35:33,725 - #10 ,
+INFO  17:35:33,726 - #18 b
+INFO  17:35:33,726 - #10 ,
+INFO  17:35:33,726 - #18 c
+INFO  17:35:33,726 - #4 }
+INFO  17:35:33,726 - #7 ;
+INFO  17:35:33,727 - #18 int
+INFO  17:35:33,728 - #18 x
+INFO  17:35:33,729 - #9 =
+ERROR 17:35:33,729 - 
+Sintaksna greska na liniji 4
+ERROR 17:35:33,729 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

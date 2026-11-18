@@ -1,0 +1,169 @@
+INFO  17:29:52,318 - Compiling source file: C:\Users\milos\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:29:52,337 - #2 program
+INFO  17:29:52,337 - #18 Programcina
+INFO  17:29:52,337 - #18 int
+INFO  17:29:52,337 - #18 a
+INFO  17:29:52,339 - #11 [
+INFO  17:29:52,339 - #12 ]
+INFO  17:29:52,339 - #7 ;
+INFO  17:29:52,340 - #18 int
+INFO  17:29:52,341 - #18 b
+INFO  17:29:52,341 - #7 ;
+INFO  17:29:52,341 - #3 {
+INFO  17:29:52,341 - #19 void
+INFO  17:29:52,341 - #18 main
+INFO  17:29:52,341 - #13 (
+INFO  17:29:52,342 - #14 )
+INFO  17:29:52,342 - #3 {
+INFO  17:29:52,342 - #18 a
+INFO  17:29:52,342 - #9 =
+INFO  17:29:52,342 - #20 new
+INFO  17:29:52,343 - #18 int
+INFO  17:29:52,343 - #11 [
+INFO  17:29:52,343 - #15 4
+INFO  17:29:52,343 - #12 ]
+INFO  17:29:52,344 - #7 ;
+INFO  17:29:52,345 - #18 b
+INFO  17:29:52,345 - #9 =
+INFO  17:29:52,345 - #18 a
+INFO  17:29:52,345 - #27 .
+INFO  17:29:52,345 - #44 max
+INFO  17:29:52,345 - #13 (
+INFO  17:29:52,345 - #14 )
+INFO  17:29:52,345 - #7 ;
+INFO  17:29:52,345 - #25 print
+INFO  17:29:52,345 - #13 (
+INFO  17:29:52,345 - #18 b
+INFO  17:29:52,345 - #14 )
+INFO  17:29:52,346 - #7 ;
+INFO  17:29:52,346 - #4 }
+INFO  17:29:52,346 - #4 }
+INFO  17:29:52,348 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_var(
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       a
+        Brackets_true(
+        ) [Brackets_true]
+      ) [VarDecl]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         b
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_var]
+  MethodDecl(
+    Method(
+     main
+    ) [Method]
+    VarDeclListSingle_e(
+    ) [VarDeclListSingle_e]
+    StatementList_statements(
+      Statement_desStatement(
+        DesignatorStatement(
+          Designator_ident(
+           a
+          ) [Designator_ident]
+          DesignatorList_assign(
+            Assignop(
+            ) [Assignop]
+            Expr_arith(
+              CondFact_expr(
+                ExprTern_nonMinus(
+                  Term(
+                    Factor_exprBrackets(
+                      Type(
+                       int
+                      ) [Type]
+                      Expr_arith(
+                        CondFact_expr(
+                          ExprTern_nonMinus(
+                            Term(
+                              Factor_num(
+                               4
+                              ) [Factor_num]
+                              MulFactor_e(
+                              ) [MulFactor_e]
+                            ) [Term]
+                            AddTerm_e(
+                            ) [AddTerm_e]
+                          ) [ExprTern_nonMinus]
+                        ) [CondFact_expr]
+                      ) [Expr_arith]
+                    ) [Factor_exprBrackets]
+                    MulFactor_e(
+                    ) [MulFactor_e]
+                  ) [Term]
+                  AddTerm_e(
+                  ) [AddTerm_e]
+                ) [ExprTern_nonMinus]
+              ) [CondFact_expr]
+            ) [Expr_arith]
+          ) [DesignatorList_assign]
+        ) [DesignatorStatement]
+      ) [Statement_desStatement]
+      StatementList_statements(
+        Statement_max(
+          DesignatorDot(
+            Designator_ident(
+             b
+            ) [Designator_ident]
+            Assignop(
+            ) [Assignop]
+            Designator_ident(
+             a
+            ) [Designator_ident]
+          ) [DesignatorDot]
+        ) [Statement_max]
+        StatementList_statements(
+          Statement_print(
+            Expr_arith(
+              CondFact_expr(
+                ExprTern_nonMinus(
+                  Term(
+                    Factor_des(
+                      Designator_ident(
+                       b
+                      ) [Designator_ident]
+                    ) [Factor_des]
+                    MulFactor_e(
+                    ) [MulFactor_e]
+                  ) [Term]
+                  AddTerm_e(
+                  ) [AddTerm_e]
+                ) [ExprTern_nonMinus]
+              ) [CondFact_expr]
+            ) [Expr_arith]
+            CommaNumber_e(
+            ) [CommaNumber_e]
+          ) [Statement_print]
+          StatementList_e(
+          ) [StatementList_e]
+        ) [StatementList_statements]
+      ) [StatementList_statements]
+    ) [StatementList_statements]
+  ) [MethodDecl]
+) [Program]
+INFO  17:29:52,349 - =====================================================================
+INFO  17:29:52,352 - =====================================================================
+INFO  17:29:52,353 - Parsiranje uspesno zavrseno!

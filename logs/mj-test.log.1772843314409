@@ -1,0 +1,84 @@
+INFO  01:28:23,547 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  01:28:23,571 - #2 program
+INFO  01:28:23,571 - #18 Programcina
+INFO  01:28:23,571 - #18 int
+INFO  01:28:23,572 - #18 x
+INFO  01:28:23,572 - #7 ;
+INFO  01:28:23,574 - #18 char
+INFO  01:28:23,574 - #18 c
+INFO  01:28:23,574 - #7 ;
+INFO  01:28:23,574 - #18 bool
+INFO  01:28:23,574 - #18 x
+INFO  01:28:23,574 - #7 ;
+INFO  01:28:23,574 - #3 {
+INFO  01:28:23,575 - #19 void
+INFO  01:28:23,575 - #18 main
+INFO  01:28:23,575 - #13 (
+INFO  01:28:23,576 - #14 )
+INFO  01:28:23,576 - #3 {
+INFO  01:28:23,576 - #4 }
+INFO  01:28:23,577 - #4 }
+INFO  01:28:23,581 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_var(
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_e(
+        ) [Brackets_e]
+      ) [VarDecl]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl(
+         c
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_var(
+        VarDeclList(
+          Type(
+           bool
+          ) [Type]
+          VarDecl(
+           x
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        ConVarEnumDeclList_e(
+        ) [ConVarEnumDeclList_e]
+      ) [ConVarEnumDeclList_var]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_var]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  01:28:23,581 - =====================================================================
+ERROR 01:28:23,587 - Var already defined : x na liniji 5
+INFO  01:28:23,587 - =====================================================================
+ERROR 01:28:23,588 - Parsiranje NIJE uspesno zavrseno!

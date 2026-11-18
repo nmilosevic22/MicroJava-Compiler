@@ -1,0 +1,2342 @@
+INFO  17:42:05,828 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:42:05,853 - #2 program
+INFO  17:42:05,853 - #18 test301
+INFO  17:42:05,853 - #5 const
+INFO  17:42:05,854 - #18 int
+INFO  17:42:05,854 - #18 nula
+INFO  17:42:05,855 - #9 =
+INFO  17:42:05,855 - #15 0
+INFO  17:42:05,855 - #7 ;
+INFO  17:42:05,856 - #5 const
+INFO  17:42:05,856 - #18 int
+INFO  17:42:05,856 - #18 jedan
+INFO  17:42:05,856 - #9 =
+INFO  17:42:05,856 - #15 1
+INFO  17:42:05,856 - #7 ;
+INFO  17:42:05,856 - #5 const
+INFO  17:42:05,857 - #18 int
+INFO  17:42:05,857 - #18 pet
+INFO  17:42:05,857 - #9 =
+INFO  17:42:05,857 - #15 5
+INFO  17:42:05,857 - #7 ;
+INFO  17:42:05,857 - #18 int
+INFO  17:42:05,857 - #18 niz
+INFO  17:42:05,857 - #11 [
+INFO  17:42:05,857 - #12 ]
+INFO  17:42:05,857 - #7 ;
+INFO  17:42:05,859 - #18 char
+INFO  17:42:05,859 - #18 nizch
+INFO  17:42:05,859 - #11 [
+INFO  17:42:05,859 - #12 ]
+INFO  17:42:05,859 - #7 ;
+INFO  17:42:05,859 - #18 int
+INFO  17:42:05,859 - #18 a
+INFO  17:42:05,859 - #7 ;
+INFO  17:42:05,859 - #3 {
+INFO  17:42:05,861 - #19 void
+INFO  17:42:05,861 - #18 main
+INFO  17:42:05,861 - #13 (
+INFO  17:42:05,861 - #14 )
+INFO  17:42:05,861 - #18 int
+INFO  17:42:05,861 - #18 bodovi
+INFO  17:42:05,861 - #7 ;
+INFO  17:42:05,861 - #18 int
+INFO  17:42:05,861 - #18 temp
+INFO  17:42:05,861 - #7 ;
+INFO  17:42:05,861 - #18 bool
+INFO  17:42:05,861 - #18 bt
+INFO  17:42:05,862 - #7 ;
+INFO  17:42:05,862 - #3 {
+INFO  17:42:05,862 - #18 bodovi
+INFO  17:42:05,863 - #9 =
+INFO  17:42:05,863 - #15 0
+INFO  17:42:05,863 - #7 ;
+INFO  17:42:05,865 - #18 bodovi
+INFO  17:42:05,865 - #33 ++
+INFO  17:42:05,865 - #7 ;
+INFO  17:42:05,866 - #18 bodovi
+INFO  17:42:05,866 - #9 =
+INFO  17:42:05,866 - #18 bodovi
+INFO  17:42:05,866 - #29 +
+INFO  17:42:05,866 - #18 jedan
+INFO  17:42:05,867 - #7 ;
+INFO  17:42:05,867 - #18 bodovi
+INFO  17:42:05,867 - #9 =
+INFO  17:42:05,867 - #18 bodovi
+INFO  17:42:05,867 - #30 *
+INFO  17:42:05,867 - #18 pet
+INFO  17:42:05,868 - #7 ;
+INFO  17:42:05,868 - #18 bodovi
+INFO  17:42:05,868 - #34 --
+INFO  17:42:05,868 - #7 ;
+INFO  17:42:05,869 - #25 print
+INFO  17:42:05,869 - #13 (
+INFO  17:42:05,869 - #18 bodovi
+INFO  17:42:05,869 - #14 )
+INFO  17:42:05,869 - #7 ;
+INFO  17:42:05,869 - #25 print
+INFO  17:42:05,869 - #13 (
+INFO  17:42:05,869 - #18 eol
+INFO  17:42:05,869 - #14 )
+INFO  17:42:05,869 - #7 ;
+INFO  17:42:05,869 - #18 niz
+INFO  17:42:05,869 - #9 =
+INFO  17:42:05,869 - #20 new
+INFO  17:42:05,869 - #18 int
+INFO  17:42:05,870 - #11 [
+INFO  17:42:05,870 - #15 3
+INFO  17:42:05,870 - #12 ]
+INFO  17:42:05,870 - #7 ;
+INFO  17:42:05,870 - #18 niz
+INFO  17:42:05,870 - #11 [
+INFO  17:42:05,870 - #18 nula
+INFO  17:42:05,870 - #12 ]
+INFO  17:42:05,870 - #9 =
+INFO  17:42:05,871 - #15 2
+INFO  17:42:05,871 - #7 ;
+INFO  17:42:05,871 - #18 niz
+INFO  17:42:05,871 - #11 [
+INFO  17:42:05,871 - #18 jedan
+INFO  17:42:05,871 - #12 ]
+INFO  17:42:05,871 - #9 =
+INFO  17:42:05,871 - #15 3
+INFO  17:42:05,871 - #7 ;
+INFO  17:42:05,871 - #18 niz
+INFO  17:42:05,871 - #11 [
+INFO  17:42:05,872 - #18 niz
+INFO  17:42:05,872 - #11 [
+INFO  17:42:05,872 - #18 nula
+INFO  17:42:05,872 - #12 ]
+INFO  17:42:05,872 - #12 ]
+INFO  17:42:05,872 - #9 =
+INFO  17:42:05,872 - #18 niz
+INFO  17:42:05,872 - #11 [
+INFO  17:42:05,872 - #15 1
+INFO  17:42:05,872 - #12 ]
+INFO  17:42:05,872 - #30 *
+INFO  17:42:05,872 - #15 4
+INFO  17:42:05,872 - #7 ;
+INFO  17:42:05,873 - #18 bodovi
+INFO  17:42:05,873 - #9 =
+INFO  17:42:05,873 - #18 niz
+INFO  17:42:05,873 - #11 [
+INFO  17:42:05,873 - #15 2
+INFO  17:42:05,873 - #12 ]
+INFO  17:42:05,873 - #31 /
+INFO  17:42:05,873 - #18 niz
+INFO  17:42:05,874 - #11 [
+INFO  17:42:05,874 - #15 0
+INFO  17:42:05,874 - #12 ]
+INFO  17:42:05,874 - #7 ;
+INFO  17:42:05,874 - #25 print
+INFO  17:42:05,874 - #13 (
+INFO  17:42:05,874 - #18 bodovi
+INFO  17:42:05,874 - #14 )
+INFO  17:42:05,874 - #7 ;
+INFO  17:42:05,874 - #25 print
+INFO  17:42:05,874 - #13 (
+INFO  17:42:05,874 - #18 eol
+INFO  17:42:05,875 - #14 )
+INFO  17:42:05,875 - #7 ;
+INFO  17:42:05,875 - #25 print
+INFO  17:42:05,875 - #13 (
+INFO  17:42:05,875 - #18 niz
+INFO  17:42:05,875 - #11 [
+INFO  17:42:05,875 - #15 2
+INFO  17:42:05,875 - #12 ]
+INFO  17:42:05,875 - #14 )
+INFO  17:42:05,875 - #7 ;
+INFO  17:42:05,875 - #25 print
+INFO  17:42:05,875 - #13 (
+INFO  17:42:05,875 - #18 eol
+INFO  17:42:05,875 - #14 )
+INFO  17:42:05,876 - #7 ;
+INFO  17:42:05,876 - #18 nizch
+INFO  17:42:05,876 - #9 =
+INFO  17:42:05,876 - #20 new
+INFO  17:42:05,876 - #18 char
+INFO  17:42:05,876 - #11 [
+INFO  17:42:05,876 - #15 3
+INFO  17:42:05,876 - #12 ]
+INFO  17:42:05,876 - #7 ;
+INFO  17:42:05,876 - #18 nizch
+INFO  17:42:05,876 - #11 [
+INFO  17:42:05,876 - #15 0
+INFO  17:42:05,876 - #12 ]
+INFO  17:42:05,876 - #9 =
+INFO  17:42:05,876 - #17 a
+INFO  17:42:05,876 - #7 ;
+INFO  17:42:05,878 - #18 nizch
+INFO  17:42:05,878 - #11 [
+INFO  17:42:05,878 - #18 jedan
+INFO  17:42:05,878 - #12 ]
+INFO  17:42:05,878 - #9 =
+INFO  17:42:05,878 - #17 b
+INFO  17:42:05,878 - #7 ;
+INFO  17:42:05,878 - #18 nizch
+INFO  17:42:05,878 - #11 [
+INFO  17:42:05,878 - #18 pet
+INFO  17:42:05,878 - #28 -
+INFO  17:42:05,878 - #15 3
+INFO  17:42:05,879 - #12 ]
+INFO  17:42:05,879 - #9 =
+INFO  17:42:05,879 - #17 c
+INFO  17:42:05,879 - #7 ;
+INFO  17:42:05,879 - #25 print
+INFO  17:42:05,879 - #13 (
+INFO  17:42:05,879 - #18 nizch
+INFO  17:42:05,879 - #11 [
+INFO  17:42:05,879 - #15 1
+INFO  17:42:05,879 - #12 ]
+INFO  17:42:05,879 - #14 )
+INFO  17:42:05,879 - #7 ;
+INFO  17:42:05,879 - #25 print
+INFO  17:42:05,879 - #13 (
+INFO  17:42:05,880 - #18 eol
+INFO  17:42:05,880 - #14 )
+INFO  17:42:05,880 - #7 ;
+INFO  17:42:05,880 - #25 print
+INFO  17:42:05,880 - #13 (
+INFO  17:42:05,880 - #18 nizch
+INFO  17:42:05,880 - #11 [
+INFO  17:42:05,880 - #18 jedan
+INFO  17:42:05,880 - #30 *
+INFO  17:42:05,880 - #15 2
+INFO  17:42:05,880 - #12 ]
+INFO  17:42:05,880 - #14 )
+INFO  17:42:05,880 - #7 ;
+INFO  17:42:05,880 - #25 print
+INFO  17:42:05,880 - #13 (
+INFO  17:42:05,880 - #18 eol
+INFO  17:42:05,880 - #14 )
+INFO  17:42:05,880 - #7 ;
+INFO  17:42:05,881 - #25 print
+INFO  17:42:05,881 - #13 (
+INFO  17:42:05,881 - #18 ord
+INFO  17:42:05,881 - #13 (
+INFO  17:42:05,881 - #18 nizch
+INFO  17:42:05,881 - #11 [
+INFO  17:42:05,881 - #15 0
+INFO  17:42:05,881 - #12 ]
+INFO  17:42:05,881 - #14 )
+INFO  17:42:05,882 - #14 )
+INFO  17:42:05,882 - #7 ;
+INFO  17:42:05,882 - #25 print
+INFO  17:42:05,882 - #13 (
+INFO  17:42:05,882 - #18 nizch
+INFO  17:42:05,882 - #27 .
+INFO  17:42:05,882 - #26 length
+INFO  17:42:05,882 - #14 )
+INFO  17:42:05,882 - #7 ;
+INFO  17:42:05,882 - #25 print
+INFO  17:42:05,882 - #13 (
+INFO  17:42:05,882 - #18 niz
+INFO  17:42:05,882 - #27 .
+INFO  17:42:05,882 - #26 length
+INFO  17:42:05,882 - #14 )
+INFO  17:42:05,882 - #7 ;
+INFO  17:42:05,883 - #18 a
+INFO  17:42:05,883 - #9 =
+INFO  17:42:05,883 - #15 1
+INFO  17:42:05,883 - #7 ;
+INFO  17:42:05,883 - #24 read
+INFO  17:42:05,883 - #13 (
+INFO  17:42:05,883 - #18 bodovi
+INFO  17:42:05,883 - #14 )
+INFO  17:42:05,883 - #7 ;
+INFO  17:42:05,883 - #18 bodovi
+INFO  17:42:05,883 - #9 =
+INFO  17:42:05,883 - #28 -
+INFO  17:42:05,883 - #18 bodovi
+INFO  17:42:05,883 - #29 +
+INFO  17:42:05,884 - #13 (
+INFO  17:42:05,884 - #18 pet
+INFO  17:42:05,884 - #30 *
+INFO  17:42:05,884 - #18 a
+INFO  17:42:05,884 - #31 /
+INFO  17:42:05,884 - #15 2
+INFO  17:42:05,884 - #28 -
+INFO  17:42:05,884 - #18 nula
+INFO  17:42:05,884 - #14 )
+INFO  17:42:05,885 - #30 *
+INFO  17:42:05,885 - #18 bodovi
+INFO  17:42:05,885 - #28 -
+INFO  17:42:05,885 - #13 (
+INFO  17:42:05,885 - #15 3
+INFO  17:42:05,885 - #32 %
+INFO  17:42:05,885 - #15 2
+INFO  17:42:05,885 - #29 +
+INFO  17:42:05,885 - #15 3
+INFO  17:42:05,886 - #30 *
+INFO  17:42:05,886 - #15 2
+INFO  17:42:05,886 - #28 -
+INFO  17:42:05,886 - #15 7
+INFO  17:42:05,886 - #14 )
+INFO  17:42:05,886 - #7 ;
+INFO  17:42:05,886 - #25 print
+INFO  17:42:05,886 - #13 (
+INFO  17:42:05,886 - #18 bodovi
+INFO  17:42:05,886 - #14 )
+INFO  17:42:05,886 - #7 ;
+INFO  17:42:05,886 - #24 read
+INFO  17:42:05,886 - #13 (
+INFO  17:42:05,886 - #18 bodovi
+INFO  17:42:05,886 - #14 )
+INFO  17:42:05,886 - #7 ;
+INFO  17:42:05,886 - #18 bt
+INFO  17:42:05,887 - #9 =
+INFO  17:42:05,887 - #16 1
+INFO  17:42:05,887 - #7 ;
+INFO  17:42:05,887 - #25 print
+INFO  17:42:05,887 - #13 (
+INFO  17:42:05,887 - #18 bt
+INFO  17:42:05,887 - #41 ?
+INFO  17:42:05,887 - #18 bodovi
+INFO  17:42:05,887 - #8 :
+INFO  17:42:05,887 - #18 bodovi
+INFO  17:42:05,887 - #29 +
+INFO  17:42:05,887 - #15 10
+INFO  17:42:05,887 - #14 )
+INFO  17:42:05,887 - #7 ;
+INFO  17:42:05,887 - #25 print
+INFO  17:42:05,887 - #13 (
+INFO  17:42:05,887 - #16 0
+INFO  17:42:05,887 - #41 ?
+INFO  17:42:05,887 - #18 bodovi
+INFO  17:42:05,888 - #29 +
+INFO  17:42:05,888 - #15 20
+INFO  17:42:05,888 - #8 :
+INFO  17:42:05,888 - #18 bodovi
+INFO  17:42:05,888 - #29 +
+INFO  17:42:05,888 - #15 30
+INFO  17:42:05,888 - #14 )
+INFO  17:42:05,888 - #7 ;
+INFO  17:42:05,888 - #25 print
+INFO  17:42:05,888 - #13 (
+INFO  17:42:05,888 - #18 bodovi
+INFO  17:42:05,888 - #37 >
+INFO  17:42:05,888 - #15 10
+INFO  17:42:05,889 - #41 ?
+INFO  17:42:05,889 - #17 +
+INFO  17:42:05,889 - #8 :
+INFO  17:42:05,889 - #17 -
+INFO  17:42:05,889 - #14 )
+INFO  17:42:05,889 - #7 ;
+INFO  17:42:05,889 - #25 print
+INFO  17:42:05,889 - #13 (
+INFO  17:42:05,889 - #18 eol
+INFO  17:42:05,890 - #14 )
+INFO  17:42:05,890 - #7 ;
+INFO  17:42:05,890 - #18 bt
+INFO  17:42:05,890 - #9 =
+INFO  17:42:05,890 - #18 niz
+INFO  17:42:05,890 - #27 .
+INFO  17:42:05,890 - #42 findAny
+INFO  17:42:05,890 - #13 (
+INFO  17:42:05,891 - #15 12
+INFO  17:42:05,891 - #14 )
+INFO  17:42:05,891 - #7 ;
+INFO  17:42:05,891 - #25 print
+INFO  17:42:05,892 - #13 (
+INFO  17:42:05,892 - #18 bt
+INFO  17:42:05,892 - #14 )
+INFO  17:42:05,892 - #7 ;
+INFO  17:42:05,892 - #25 print
+INFO  17:42:05,892 - #13 (
+INFO  17:42:05,892 - #18 eol
+INFO  17:42:05,892 - #14 )
+INFO  17:42:05,893 - #7 ;
+INFO  17:42:05,893 - #18 bt
+INFO  17:42:05,893 - #9 =
+INFO  17:42:05,894 - #18 niz
+INFO  17:42:05,894 - #27 .
+INFO  17:42:05,894 - #42 findAny
+INFO  17:42:05,894 - #13 (
+INFO  17:42:05,894 - #18 pet
+INFO  17:42:05,894 - #28 -
+INFO  17:42:05,894 - #18 jedan
+INFO  17:42:05,895 - #28 -
+INFO  17:42:05,895 - #18 jedan
+INFO  17:42:05,895 - #14 )
+INFO  17:42:05,895 - #7 ;
+INFO  17:42:05,896 - #25 print
+INFO  17:42:05,896 - #13 (
+INFO  17:42:05,896 - #18 bt
+INFO  17:42:05,896 - #14 )
+INFO  17:42:05,896 - #7 ;
+INFO  17:42:05,896 - #25 print
+INFO  17:42:05,896 - #13 (
+INFO  17:42:05,896 - #18 eol
+INFO  17:42:05,896 - #14 )
+INFO  17:42:05,896 - #7 ;
+INFO  17:42:05,896 - #18 bt
+INFO  17:42:05,896 - #9 =
+INFO  17:42:05,896 - #18 niz
+INFO  17:42:05,896 - #27 .
+INFO  17:42:05,896 - #42 findAny
+INFO  17:42:05,896 - #13 (
+INFO  17:42:05,896 - #18 bodovi
+INFO  17:42:05,896 - #14 )
+INFO  17:42:05,896 - #7 ;
+INFO  17:42:05,896 - #25 print
+INFO  17:42:05,896 - #13 (
+INFO  17:42:05,896 - #18 bt
+INFO  17:42:05,896 - #14 )
+INFO  17:42:05,897 - #7 ;
+INFO  17:42:05,897 - #25 print
+INFO  17:42:05,897 - #13 (
+INFO  17:42:05,897 - #18 eol
+INFO  17:42:05,897 - #14 )
+INFO  17:42:05,897 - #7 ;
+INFO  17:42:05,897 - #4 }
+INFO  17:42:05,898 - #4 }
+INFO  17:42:05,912 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       nula
+        Constant_num(
+         0
+        ) [Constant_num]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_const(
+      ConDeclList(
+        Type(
+         int
+        ) [Type]
+        ConDecl(
+         jedan
+          Constant_num(
+           1
+          ) [Constant_num]
+        ) [ConDecl]
+        ConDeclElse_e(
+        ) [ConDeclElse_e]
+      ) [ConDeclList]
+      ConVarEnumDeclList_const(
+        ConDeclList(
+          Type(
+           int
+          ) [Type]
+          ConDecl(
+           pet
+            Constant_num(
+             5
+            ) [Constant_num]
+          ) [ConDecl]
+          ConDeclElse_e(
+          ) [ConDeclElse_e]
+        ) [ConDeclList]
+        ConVarEnumDeclList_var(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             niz
+              Brackets_true(
+              ) [Brackets_true]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+          ConVarEnumDeclList_var(
+            VarDeclList(
+              Type(
+               char
+              ) [Type]
+              VarDecl(
+               nizch
+                Brackets_true(
+                ) [Brackets_true]
+              ) [VarDecl]
+              VarDeclMore_e(
+              ) [VarDeclMore_e]
+            ) [VarDeclList]
+            ConVarEnumDeclList_var(
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarDecl(
+                 a
+                  Brackets_e(
+                  ) [Brackets_e]
+                ) [VarDecl]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclList]
+              ConVarEnumDeclList_e(
+              ) [ConVarEnumDeclList_e]
+            ) [ConVarEnumDeclList_var]
+          ) [ConVarEnumDeclList_var]
+        ) [ConVarEnumDeclList_var]
+      ) [ConVarEnumDeclList_const]
+    ) [ConVarEnumDeclList_const]
+  ) [ConVarEnumDeclList_const]
+  MethodDecl(
+    Method(
+     main
+    ) [Method]
+    VarDeclListSingle_true(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         bodovi
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      VarDeclListSingle_true(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           temp
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        VarDeclListSingle_true(
+          VarDeclList(
+            Type(
+             bool
+            ) [Type]
+            VarDecl(
+             bt
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+        ) [VarDeclListSingle_true]
+      ) [VarDeclListSingle_true]
+    ) [VarDeclListSingle_true]
+    StatementList_statements(
+      Statement_desStatement(
+        DesignatorStatement(
+          Designator_ident(
+           bodovi
+          ) [Designator_ident]
+          DesignatorList_assign(
+            Assignop(
+            ) [Assignop]
+            Expr_arith(
+              CondFact_expr(
+                ExprTern_nonMinus(
+                  Term(
+                    Factor_num(
+                     0
+                    ) [Factor_num]
+                    MulFactor_e(
+                    ) [MulFactor_e]
+                  ) [Term]
+                  AddTerm_e(
+                  ) [AddTerm_e]
+                ) [ExprTern_nonMinus]
+              ) [CondFact_expr]
+            ) [Expr_arith]
+          ) [DesignatorList_assign]
+        ) [DesignatorStatement]
+      ) [Statement_desStatement]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator_ident(
+             bodovi
+            ) [Designator_ident]
+            DesignatorList_inc(
+            ) [DesignatorList_inc]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_statements(
+          Statement_desStatement(
+            DesignatorStatement(
+              Designator_ident(
+               bodovi
+              ) [Designator_ident]
+              DesignatorList_assign(
+                Assignop(
+                ) [Assignop]
+                Expr_arith(
+                  CondFact_expr(
+                    ExprTern_nonMinus(
+                      Term(
+                        Factor_des(
+                          Designator_ident(
+                           bodovi
+                          ) [Designator_ident]
+                        ) [Factor_des]
+                        MulFactor_e(
+                        ) [MulFactor_e]
+                      ) [Term]
+                      AddTerm_add(
+                        AddTerm_e(
+                        ) [AddTerm_e]
+                        Addop_plus(
+                        ) [Addop_plus]
+                        Term(
+                          Factor_des(
+                            Designator_ident(
+                             jedan
+                            ) [Designator_ident]
+                          ) [Factor_des]
+                          MulFactor_e(
+                          ) [MulFactor_e]
+                        ) [Term]
+                      ) [AddTerm_add]
+                    ) [ExprTern_nonMinus]
+                  ) [CondFact_expr]
+                ) [Expr_arith]
+              ) [DesignatorList_assign]
+            ) [DesignatorStatement]
+          ) [Statement_desStatement]
+          StatementList_statements(
+            Statement_desStatement(
+              DesignatorStatement(
+                Designator_ident(
+                 bodovi
+                ) [Designator_ident]
+                DesignatorList_assign(
+                  Assignop(
+                  ) [Assignop]
+                  Expr_arith(
+                    CondFact_expr(
+                      ExprTern_nonMinus(
+                        Term(
+                          Factor_des(
+                            Designator_ident(
+                             bodovi
+                            ) [Designator_ident]
+                          ) [Factor_des]
+                          MulFactor_mul(
+                            MulFactor_e(
+                            ) [MulFactor_e]
+                            Mulop_mul(
+                            ) [Mulop_mul]
+                            Factor_des(
+                              Designator_ident(
+                               pet
+                              ) [Designator_ident]
+                            ) [Factor_des]
+                          ) [MulFactor_mul]
+                        ) [Term]
+                        AddTerm_e(
+                        ) [AddTerm_e]
+                      ) [ExprTern_nonMinus]
+                    ) [CondFact_expr]
+                  ) [Expr_arith]
+                ) [DesignatorList_assign]
+              ) [DesignatorStatement]
+            ) [Statement_desStatement]
+            StatementList_statements(
+              Statement_desStatement(
+                DesignatorStatement(
+                  Designator_ident(
+                   bodovi
+                  ) [Designator_ident]
+                  DesignatorList_dec(
+                  ) [DesignatorList_dec]
+                ) [DesignatorStatement]
+              ) [Statement_desStatement]
+              StatementList_statements(
+                Statement_print(
+                  Expr_arith(
+                    CondFact_expr(
+                      ExprTern_nonMinus(
+                        Term(
+                          Factor_des(
+                            Designator_ident(
+                             bodovi
+                            ) [Designator_ident]
+                          ) [Factor_des]
+                          MulFactor_e(
+                          ) [MulFactor_e]
+                        ) [Term]
+                        AddTerm_e(
+                        ) [AddTerm_e]
+                      ) [ExprTern_nonMinus]
+                    ) [CondFact_expr]
+                  ) [Expr_arith]
+                  CommaNumber_e(
+                  ) [CommaNumber_e]
+                ) [Statement_print]
+                StatementList_statements(
+                  Statement_print(
+                    Expr_arith(
+                      CondFact_expr(
+                        ExprTern_nonMinus(
+                          Term(
+                            Factor_des(
+                              Designator_ident(
+                               eol
+                              ) [Designator_ident]
+                            ) [Factor_des]
+                            MulFactor_e(
+                            ) [MulFactor_e]
+                          ) [Term]
+                          AddTerm_e(
+                          ) [AddTerm_e]
+                        ) [ExprTern_nonMinus]
+                      ) [CondFact_expr]
+                    ) [Expr_arith]
+                    CommaNumber_e(
+                    ) [CommaNumber_e]
+                  ) [Statement_print]
+                  StatementList_statements(
+                    Statement_desStatement(
+                      DesignatorStatement(
+                        Designator_ident(
+                         niz
+                        ) [Designator_ident]
+                        DesignatorList_assign(
+                          Assignop(
+                          ) [Assignop]
+                          Expr_arith(
+                            CondFact_expr(
+                              ExprTern_nonMinus(
+                                Term(
+                                  Factor_exprBrackets(
+                                    Type(
+                                     int
+                                    ) [Type]
+                                    Expr_arith(
+                                      CondFact_expr(
+                                        ExprTern_nonMinus(
+                                          Term(
+                                            Factor_num(
+                                             3
+                                            ) [Factor_num]
+                                            MulFactor_e(
+                                            ) [MulFactor_e]
+                                          ) [Term]
+                                          AddTerm_e(
+                                          ) [AddTerm_e]
+                                        ) [ExprTern_nonMinus]
+                                      ) [CondFact_expr]
+                                    ) [Expr_arith]
+                                  ) [Factor_exprBrackets]
+                                  MulFactor_e(
+                                  ) [MulFactor_e]
+                                ) [Term]
+                                AddTerm_e(
+                                ) [AddTerm_e]
+                              ) [ExprTern_nonMinus]
+                            ) [CondFact_expr]
+                          ) [Expr_arith]
+                        ) [DesignatorList_assign]
+                      ) [DesignatorStatement]
+                    ) [Statement_desStatement]
+                    StatementList_statements(
+                      Statement_desStatement(
+                        DesignatorStatement(
+                          Designator_index(
+                            Designator_ident(
+                             niz
+                            ) [Designator_ident]
+                            ArrayBase(
+                            ) [ArrayBase]
+                            Expr_arith(
+                              CondFact_expr(
+                                ExprTern_nonMinus(
+                                  Term(
+                                    Factor_des(
+                                      Designator_ident(
+                                       nula
+                                      ) [Designator_ident]
+                                    ) [Factor_des]
+                                    MulFactor_e(
+                                    ) [MulFactor_e]
+                                  ) [Term]
+                                  AddTerm_e(
+                                  ) [AddTerm_e]
+                                ) [ExprTern_nonMinus]
+                              ) [CondFact_expr]
+                            ) [Expr_arith]
+                          ) [Designator_index]
+                          DesignatorList_assign(
+                            Assignop(
+                            ) [Assignop]
+                            Expr_arith(
+                              CondFact_expr(
+                                ExprTern_nonMinus(
+                                  Term(
+                                    Factor_num(
+                                     2
+                                    ) [Factor_num]
+                                    MulFactor_e(
+                                    ) [MulFactor_e]
+                                  ) [Term]
+                                  AddTerm_e(
+                                  ) [AddTerm_e]
+                                ) [ExprTern_nonMinus]
+                              ) [CondFact_expr]
+                            ) [Expr_arith]
+                          ) [DesignatorList_assign]
+                        ) [DesignatorStatement]
+                      ) [Statement_desStatement]
+                      StatementList_statements(
+                        Statement_desStatement(
+                          DesignatorStatement(
+                            Designator_index(
+                              Designator_ident(
+                               niz
+                              ) [Designator_ident]
+                              ArrayBase(
+                              ) [ArrayBase]
+                              Expr_arith(
+                                CondFact_expr(
+                                  ExprTern_nonMinus(
+                                    Term(
+                                      Factor_des(
+                                        Designator_ident(
+                                         jedan
+                                        ) [Designator_ident]
+                                      ) [Factor_des]
+                                      MulFactor_e(
+                                      ) [MulFactor_e]
+                                    ) [Term]
+                                    AddTerm_e(
+                                    ) [AddTerm_e]
+                                  ) [ExprTern_nonMinus]
+                                ) [CondFact_expr]
+                              ) [Expr_arith]
+                            ) [Designator_index]
+                            DesignatorList_assign(
+                              Assignop(
+                              ) [Assignop]
+                              Expr_arith(
+                                CondFact_expr(
+                                  ExprTern_nonMinus(
+                                    Term(
+                                      Factor_num(
+                                       3
+                                      ) [Factor_num]
+                                      MulFactor_e(
+                                      ) [MulFactor_e]
+                                    ) [Term]
+                                    AddTerm_e(
+                                    ) [AddTerm_e]
+                                  ) [ExprTern_nonMinus]
+                                ) [CondFact_expr]
+                              ) [Expr_arith]
+                            ) [DesignatorList_assign]
+                          ) [DesignatorStatement]
+                        ) [Statement_desStatement]
+                        StatementList_statements(
+                          Statement_desStatement(
+                            DesignatorStatement(
+                              Designator_index(
+                                Designator_ident(
+                                 niz
+                                ) [Designator_ident]
+                                ArrayBase(
+                                ) [ArrayBase]
+                                Expr_arith(
+                                  CondFact_expr(
+                                    ExprTern_nonMinus(
+                                      Term(
+                                        Factor_des(
+                                          Designator_index(
+                                            Designator_ident(
+                                             niz
+                                            ) [Designator_ident]
+                                            ArrayBase(
+                                            ) [ArrayBase]
+                                            Expr_arith(
+                                              CondFact_expr(
+                                                ExprTern_nonMinus(
+                                                  Term(
+                                                    Factor_des(
+                                                      Designator_ident(
+                                                       nula
+                                                      ) [Designator_ident]
+                                                    ) [Factor_des]
+                                                    MulFactor_e(
+                                                    ) [MulFactor_e]
+                                                  ) [Term]
+                                                  AddTerm_e(
+                                                  ) [AddTerm_e]
+                                                ) [ExprTern_nonMinus]
+                                              ) [CondFact_expr]
+                                            ) [Expr_arith]
+                                          ) [Designator_index]
+                                        ) [Factor_des]
+                                        MulFactor_e(
+                                        ) [MulFactor_e]
+                                      ) [Term]
+                                      AddTerm_e(
+                                      ) [AddTerm_e]
+                                    ) [ExprTern_nonMinus]
+                                  ) [CondFact_expr]
+                                ) [Expr_arith]
+                              ) [Designator_index]
+                              DesignatorList_assign(
+                                Assignop(
+                                ) [Assignop]
+                                Expr_arith(
+                                  CondFact_expr(
+                                    ExprTern_nonMinus(
+                                      Term(
+                                        Factor_des(
+                                          Designator_index(
+                                            Designator_ident(
+                                             niz
+                                            ) [Designator_ident]
+                                            ArrayBase(
+                                            ) [ArrayBase]
+                                            Expr_arith(
+                                              CondFact_expr(
+                                                ExprTern_nonMinus(
+                                                  Term(
+                                                    Factor_num(
+                                                     1
+                                                    ) [Factor_num]
+                                                    MulFactor_e(
+                                                    ) [MulFactor_e]
+                                                  ) [Term]
+                                                  AddTerm_e(
+                                                  ) [AddTerm_e]
+                                                ) [ExprTern_nonMinus]
+                                              ) [CondFact_expr]
+                                            ) [Expr_arith]
+                                          ) [Designator_index]
+                                        ) [Factor_des]
+                                        MulFactor_mul(
+                                          MulFactor_e(
+                                          ) [MulFactor_e]
+                                          Mulop_mul(
+                                          ) [Mulop_mul]
+                                          Factor_num(
+                                           4
+                                          ) [Factor_num]
+                                        ) [MulFactor_mul]
+                                      ) [Term]
+                                      AddTerm_e(
+                                      ) [AddTerm_e]
+                                    ) [ExprTern_nonMinus]
+                                  ) [CondFact_expr]
+                                ) [Expr_arith]
+                              ) [DesignatorList_assign]
+                            ) [DesignatorStatement]
+                          ) [Statement_desStatement]
+                          StatementList_statements(
+                            Statement_desStatement(
+                              DesignatorStatement(
+                                Designator_ident(
+                                 bodovi
+                                ) [Designator_ident]
+                                DesignatorList_assign(
+                                  Assignop(
+                                  ) [Assignop]
+                                  Expr_arith(
+                                    CondFact_expr(
+                                      ExprTern_nonMinus(
+                                        Term(
+                                          Factor_des(
+                                            Designator_index(
+                                              Designator_ident(
+                                               niz
+                                              ) [Designator_ident]
+                                              ArrayBase(
+                                              ) [ArrayBase]
+                                              Expr_arith(
+                                                CondFact_expr(
+                                                  ExprTern_nonMinus(
+                                                    Term(
+                                                      Factor_num(
+                                                       2
+                                                      ) [Factor_num]
+                                                      MulFactor_e(
+                                                      ) [MulFactor_e]
+                                                    ) [Term]
+                                                    AddTerm_e(
+                                                    ) [AddTerm_e]
+                                                  ) [ExprTern_nonMinus]
+                                                ) [CondFact_expr]
+                                              ) [Expr_arith]
+                                            ) [Designator_index]
+                                          ) [Factor_des]
+                                          MulFactor_mul(
+                                            MulFactor_e(
+                                            ) [MulFactor_e]
+                                            Mulop_div(
+                                            ) [Mulop_div]
+                                            Factor_des(
+                                              Designator_index(
+                                                Designator_ident(
+                                                 niz
+                                                ) [Designator_ident]
+                                                ArrayBase(
+                                                ) [ArrayBase]
+                                                Expr_arith(
+                                                  CondFact_expr(
+                                                    ExprTern_nonMinus(
+                                                      Term(
+                                                        Factor_num(
+                                                         0
+                                                        ) [Factor_num]
+                                                        MulFactor_e(
+                                                        ) [MulFactor_e]
+                                                      ) [Term]
+                                                      AddTerm_e(
+                                                      ) [AddTerm_e]
+                                                    ) [ExprTern_nonMinus]
+                                                  ) [CondFact_expr]
+                                                ) [Expr_arith]
+                                              ) [Designator_index]
+                                            ) [Factor_des]
+                                          ) [MulFactor_mul]
+                                        ) [Term]
+                                        AddTerm_e(
+                                        ) [AddTerm_e]
+                                      ) [ExprTern_nonMinus]
+                                    ) [CondFact_expr]
+                                  ) [Expr_arith]
+                                ) [DesignatorList_assign]
+                              ) [DesignatorStatement]
+                            ) [Statement_desStatement]
+                            StatementList_statements(
+                              Statement_print(
+                                Expr_arith(
+                                  CondFact_expr(
+                                    ExprTern_nonMinus(
+                                      Term(
+                                        Factor_des(
+                                          Designator_ident(
+                                           bodovi
+                                          ) [Designator_ident]
+                                        ) [Factor_des]
+                                        MulFactor_e(
+                                        ) [MulFactor_e]
+                                      ) [Term]
+                                      AddTerm_e(
+                                      ) [AddTerm_e]
+                                    ) [ExprTern_nonMinus]
+                                  ) [CondFact_expr]
+                                ) [Expr_arith]
+                                CommaNumber_e(
+                                ) [CommaNumber_e]
+                              ) [Statement_print]
+                              StatementList_statements(
+                                Statement_print(
+                                  Expr_arith(
+                                    CondFact_expr(
+                                      ExprTern_nonMinus(
+                                        Term(
+                                          Factor_des(
+                                            Designator_ident(
+                                             eol
+                                            ) [Designator_ident]
+                                          ) [Factor_des]
+                                          MulFactor_e(
+                                          ) [MulFactor_e]
+                                        ) [Term]
+                                        AddTerm_e(
+                                        ) [AddTerm_e]
+                                      ) [ExprTern_nonMinus]
+                                    ) [CondFact_expr]
+                                  ) [Expr_arith]
+                                  CommaNumber_e(
+                                  ) [CommaNumber_e]
+                                ) [Statement_print]
+                                StatementList_statements(
+                                  Statement_print(
+                                    Expr_arith(
+                                      CondFact_expr(
+                                        ExprTern_nonMinus(
+                                          Term(
+                                            Factor_des(
+                                              Designator_index(
+                                                Designator_ident(
+                                                 niz
+                                                ) [Designator_ident]
+                                                ArrayBase(
+                                                ) [ArrayBase]
+                                                Expr_arith(
+                                                  CondFact_expr(
+                                                    ExprTern_nonMinus(
+                                                      Term(
+                                                        Factor_num(
+                                                         2
+                                                        ) [Factor_num]
+                                                        MulFactor_e(
+                                                        ) [MulFactor_e]
+                                                      ) [Term]
+                                                      AddTerm_e(
+                                                      ) [AddTerm_e]
+                                                    ) [ExprTern_nonMinus]
+                                                  ) [CondFact_expr]
+                                                ) [Expr_arith]
+                                              ) [Designator_index]
+                                            ) [Factor_des]
+                                            MulFactor_e(
+                                            ) [MulFactor_e]
+                                          ) [Term]
+                                          AddTerm_e(
+                                          ) [AddTerm_e]
+                                        ) [ExprTern_nonMinus]
+                                      ) [CondFact_expr]
+                                    ) [Expr_arith]
+                                    CommaNumber_e(
+                                    ) [CommaNumber_e]
+                                  ) [Statement_print]
+                                  StatementList_statements(
+                                    Statement_print(
+                                      Expr_arith(
+                                        CondFact_expr(
+                                          ExprTern_nonMinus(
+                                            Term(
+                                              Factor_des(
+                                                Designator_ident(
+                                                 eol
+                                                ) [Designator_ident]
+                                              ) [Factor_des]
+                                              MulFactor_e(
+                                              ) [MulFactor_e]
+                                            ) [Term]
+                                            AddTerm_e(
+                                            ) [AddTerm_e]
+                                          ) [ExprTern_nonMinus]
+                                        ) [CondFact_expr]
+                                      ) [Expr_arith]
+                                      CommaNumber_e(
+                                      ) [CommaNumber_e]
+                                    ) [Statement_print]
+                                    StatementList_statements(
+                                      Statement_desStatement(
+                                        DesignatorStatement(
+                                          Designator_ident(
+                                           nizch
+                                          ) [Designator_ident]
+                                          DesignatorList_assign(
+                                            Assignop(
+                                            ) [Assignop]
+                                            Expr_arith(
+                                              CondFact_expr(
+                                                ExprTern_nonMinus(
+                                                  Term(
+                                                    Factor_exprBrackets(
+                                                      Type(
+                                                       char
+                                                      ) [Type]
+                                                      Expr_arith(
+                                                        CondFact_expr(
+                                                          ExprTern_nonMinus(
+                                                            Term(
+                                                              Factor_num(
+                                                               3
+                                                              ) [Factor_num]
+                                                              MulFactor_e(
+                                                              ) [MulFactor_e]
+                                                            ) [Term]
+                                                            AddTerm_e(
+                                                            ) [AddTerm_e]
+                                                          ) [ExprTern_nonMinus]
+                                                        ) [CondFact_expr]
+                                                      ) [Expr_arith]
+                                                    ) [Factor_exprBrackets]
+                                                    MulFactor_e(
+                                                    ) [MulFactor_e]
+                                                  ) [Term]
+                                                  AddTerm_e(
+                                                  ) [AddTerm_e]
+                                                ) [ExprTern_nonMinus]
+                                              ) [CondFact_expr]
+                                            ) [Expr_arith]
+                                          ) [DesignatorList_assign]
+                                        ) [DesignatorStatement]
+                                      ) [Statement_desStatement]
+                                      StatementList_statements(
+                                        Statement_desStatement(
+                                          DesignatorStatement(
+                                            Designator_index(
+                                              Designator_ident(
+                                               nizch
+                                              ) [Designator_ident]
+                                              ArrayBase(
+                                              ) [ArrayBase]
+                                              Expr_arith(
+                                                CondFact_expr(
+                                                  ExprTern_nonMinus(
+                                                    Term(
+                                                      Factor_num(
+                                                       0
+                                                      ) [Factor_num]
+                                                      MulFactor_e(
+                                                      ) [MulFactor_e]
+                                                    ) [Term]
+                                                    AddTerm_e(
+                                                    ) [AddTerm_e]
+                                                  ) [ExprTern_nonMinus]
+                                                ) [CondFact_expr]
+                                              ) [Expr_arith]
+                                            ) [Designator_index]
+                                            DesignatorList_assign(
+                                              Assignop(
+                                              ) [Assignop]
+                                              Expr_arith(
+                                                CondFact_expr(
+                                                  ExprTern_nonMinus(
+                                                    Term(
+                                                      Factor_char(
+                                                       a
+                                                      ) [Factor_char]
+                                                      MulFactor_e(
+                                                      ) [MulFactor_e]
+                                                    ) [Term]
+                                                    AddTerm_e(
+                                                    ) [AddTerm_e]
+                                                  ) [ExprTern_nonMinus]
+                                                ) [CondFact_expr]
+                                              ) [Expr_arith]
+                                            ) [DesignatorList_assign]
+                                          ) [DesignatorStatement]
+                                        ) [Statement_desStatement]
+                                        StatementList_statements(
+                                          Statement_desStatement(
+                                            DesignatorStatement(
+                                              Designator_index(
+                                                Designator_ident(
+                                                 nizch
+                                                ) [Designator_ident]
+                                                ArrayBase(
+                                                ) [ArrayBase]
+                                                Expr_arith(
+                                                  CondFact_expr(
+                                                    ExprTern_nonMinus(
+                                                      Term(
+                                                        Factor_des(
+                                                          Designator_ident(
+                                                           jedan
+                                                          ) [Designator_ident]
+                                                        ) [Factor_des]
+                                                        MulFactor_e(
+                                                        ) [MulFactor_e]
+                                                      ) [Term]
+                                                      AddTerm_e(
+                                                      ) [AddTerm_e]
+                                                    ) [ExprTern_nonMinus]
+                                                  ) [CondFact_expr]
+                                                ) [Expr_arith]
+                                              ) [Designator_index]
+                                              DesignatorList_assign(
+                                                Assignop(
+                                                ) [Assignop]
+                                                Expr_arith(
+                                                  CondFact_expr(
+                                                    ExprTern_nonMinus(
+                                                      Term(
+                                                        Factor_char(
+                                                         b
+                                                        ) [Factor_char]
+                                                        MulFactor_e(
+                                                        ) [MulFactor_e]
+                                                      ) [Term]
+                                                      AddTerm_e(
+                                                      ) [AddTerm_e]
+                                                    ) [ExprTern_nonMinus]
+                                                  ) [CondFact_expr]
+                                                ) [Expr_arith]
+                                              ) [DesignatorList_assign]
+                                            ) [DesignatorStatement]
+                                          ) [Statement_desStatement]
+                                          StatementList_statements(
+                                            Statement_desStatement(
+                                              DesignatorStatement(
+                                                Designator_index(
+                                                  Designator_ident(
+                                                   nizch
+                                                  ) [Designator_ident]
+                                                  ArrayBase(
+                                                  ) [ArrayBase]
+                                                  Expr_arith(
+                                                    CondFact_expr(
+                                                      ExprTern_nonMinus(
+                                                        Term(
+                                                          Factor_des(
+                                                            Designator_ident(
+                                                             pet
+                                                            ) [Designator_ident]
+                                                          ) [Factor_des]
+                                                          MulFactor_e(
+                                                          ) [MulFactor_e]
+                                                        ) [Term]
+                                                        AddTerm_add(
+                                                          AddTerm_e(
+                                                          ) [AddTerm_e]
+                                                          Addop_minus(
+                                                          ) [Addop_minus]
+                                                          Term(
+                                                            Factor_num(
+                                                             3
+                                                            ) [Factor_num]
+                                                            MulFactor_e(
+                                                            ) [MulFactor_e]
+                                                          ) [Term]
+                                                        ) [AddTerm_add]
+                                                      ) [ExprTern_nonMinus]
+                                                    ) [CondFact_expr]
+                                                  ) [Expr_arith]
+                                                ) [Designator_index]
+                                                DesignatorList_assign(
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Expr_arith(
+                                                    CondFact_expr(
+                                                      ExprTern_nonMinus(
+                                                        Term(
+                                                          Factor_char(
+                                                           c
+                                                          ) [Factor_char]
+                                                          MulFactor_e(
+                                                          ) [MulFactor_e]
+                                                        ) [Term]
+                                                        AddTerm_e(
+                                                        ) [AddTerm_e]
+                                                      ) [ExprTern_nonMinus]
+                                                    ) [CondFact_expr]
+                                                  ) [Expr_arith]
+                                                ) [DesignatorList_assign]
+                                              ) [DesignatorStatement]
+                                            ) [Statement_desStatement]
+                                            StatementList_statements(
+                                              Statement_print(
+                                                Expr_arith(
+                                                  CondFact_expr(
+                                                    ExprTern_nonMinus(
+                                                      Term(
+                                                        Factor_des(
+                                                          Designator_index(
+                                                            Designator_ident(
+                                                             nizch
+                                                            ) [Designator_ident]
+                                                            ArrayBase(
+                                                            ) [ArrayBase]
+                                                            Expr_arith(
+                                                              CondFact_expr(
+                                                                ExprTern_nonMinus(
+                                                                  Term(
+                                                                    Factor_num(
+                                                                     1
+                                                                    ) [Factor_num]
+                                                                    MulFactor_e(
+                                                                    ) [MulFactor_e]
+                                                                  ) [Term]
+                                                                  AddTerm_e(
+                                                                  ) [AddTerm_e]
+                                                                ) [ExprTern_nonMinus]
+                                                              ) [CondFact_expr]
+                                                            ) [Expr_arith]
+                                                          ) [Designator_index]
+                                                        ) [Factor_des]
+                                                        MulFactor_e(
+                                                        ) [MulFactor_e]
+                                                      ) [Term]
+                                                      AddTerm_e(
+                                                      ) [AddTerm_e]
+                                                    ) [ExprTern_nonMinus]
+                                                  ) [CondFact_expr]
+                                                ) [Expr_arith]
+                                                CommaNumber_e(
+                                                ) [CommaNumber_e]
+                                              ) [Statement_print]
+                                              StatementList_statements(
+                                                Statement_print(
+                                                  Expr_arith(
+                                                    CondFact_expr(
+                                                      ExprTern_nonMinus(
+                                                        Term(
+                                                          Factor_des(
+                                                            Designator_ident(
+                                                             eol
+                                                            ) [Designator_ident]
+                                                          ) [Factor_des]
+                                                          MulFactor_e(
+                                                          ) [MulFactor_e]
+                                                        ) [Term]
+                                                        AddTerm_e(
+                                                        ) [AddTerm_e]
+                                                      ) [ExprTern_nonMinus]
+                                                    ) [CondFact_expr]
+                                                  ) [Expr_arith]
+                                                  CommaNumber_e(
+                                                  ) [CommaNumber_e]
+                                                ) [Statement_print]
+                                                StatementList_statements(
+                                                  Statement_print(
+                                                    Expr_arith(
+                                                      CondFact_expr(
+                                                        ExprTern_nonMinus(
+                                                          Term(
+                                                            Factor_des(
+                                                              Designator_index(
+                                                                Designator_ident(
+                                                                 nizch
+                                                                ) [Designator_ident]
+                                                                ArrayBase(
+                                                                ) [ArrayBase]
+                                                                Expr_arith(
+                                                                  CondFact_expr(
+                                                                    ExprTern_nonMinus(
+                                                                      Term(
+                                                                        Factor_des(
+                                                                          Designator_ident(
+                                                                           jedan
+                                                                          ) [Designator_ident]
+                                                                        ) [Factor_des]
+                                                                        MulFactor_mul(
+                                                                          MulFactor_e(
+                                                                          ) [MulFactor_e]
+                                                                          Mulop_mul(
+                                                                          ) [Mulop_mul]
+                                                                          Factor_num(
+                                                                           2
+                                                                          ) [Factor_num]
+                                                                        ) [MulFactor_mul]
+                                                                      ) [Term]
+                                                                      AddTerm_e(
+                                                                      ) [AddTerm_e]
+                                                                    ) [ExprTern_nonMinus]
+                                                                  ) [CondFact_expr]
+                                                                ) [Expr_arith]
+                                                              ) [Designator_index]
+                                                            ) [Factor_des]
+                                                            MulFactor_e(
+                                                            ) [MulFactor_e]
+                                                          ) [Term]
+                                                          AddTerm_e(
+                                                          ) [AddTerm_e]
+                                                        ) [ExprTern_nonMinus]
+                                                      ) [CondFact_expr]
+                                                    ) [Expr_arith]
+                                                    CommaNumber_e(
+                                                    ) [CommaNumber_e]
+                                                  ) [Statement_print]
+                                                  StatementList_statements(
+                                                    Statement_print(
+                                                      Expr_arith(
+                                                        CondFact_expr(
+                                                          ExprTern_nonMinus(
+                                                            Term(
+                                                              Factor_des(
+                                                                Designator_ident(
+                                                                 eol
+                                                                ) [Designator_ident]
+                                                              ) [Factor_des]
+                                                              MulFactor_e(
+                                                              ) [MulFactor_e]
+                                                            ) [Term]
+                                                            AddTerm_e(
+                                                            ) [AddTerm_e]
+                                                          ) [ExprTern_nonMinus]
+                                                        ) [CondFact_expr]
+                                                      ) [Expr_arith]
+                                                      CommaNumber_e(
+                                                      ) [CommaNumber_e]
+                                                    ) [Statement_print]
+                                                    StatementList_statements(
+                                                      Statement_print(
+                                                        Expr_arith(
+                                                          CondFact_expr(
+                                                            ExprTern_nonMinus(
+                                                              Term(
+                                                                Factor_meth(
+                                                                  Designator_ident(
+                                                                   ord
+                                                                  ) [Designator_ident]
+                                                                  ActParsSingle_true(
+                                                                    ActPars(
+                                                                      Expr_arith(
+                                                                        CondFact_expr(
+                                                                          ExprTern_nonMinus(
+                                                                            Term(
+                                                                              Factor_des(
+                                                                                Designator_index(
+                                                                                  Designator_ident(
+                                                                                   nizch
+                                                                                  ) [Designator_ident]
+                                                                                  ArrayBase(
+                                                                                  ) [ArrayBase]
+                                                                                  Expr_arith(
+                                                                                    CondFact_expr(
+                                                                                      ExprTern_nonMinus(
+                                                                                        Term(
+                                                                                          Factor_num(
+                                                                                           0
+                                                                                          ) [Factor_num]
+                                                                                          MulFactor_e(
+                                                                                          ) [MulFactor_e]
+                                                                                        ) [Term]
+                                                                                        AddTerm_e(
+                                                                                        ) [AddTerm_e]
+                                                                                      ) [ExprTern_nonMinus]
+                                                                                    ) [CondFact_expr]
+                                                                                  ) [Expr_arith]
+                                                                                ) [Designator_index]
+                                                                              ) [Factor_des]
+                                                                              MulFactor_e(
+                                                                              ) [MulFactor_e]
+                                                                            ) [Term]
+                                                                            AddTerm_e(
+                                                                            ) [AddTerm_e]
+                                                                          ) [ExprTern_nonMinus]
+                                                                        ) [CondFact_expr]
+                                                                      ) [Expr_arith]
+                                                                      ExprList_e(
+                                                                      ) [ExprList_e]
+                                                                    ) [ActPars]
+                                                                  ) [ActParsSingle_true]
+                                                                ) [Factor_meth]
+                                                                MulFactor_e(
+                                                                ) [MulFactor_e]
+                                                              ) [Term]
+                                                              AddTerm_e(
+                                                              ) [AddTerm_e]
+                                                            ) [ExprTern_nonMinus]
+                                                          ) [CondFact_expr]
+                                                        ) [Expr_arith]
+                                                        CommaNumber_e(
+                                                        ) [CommaNumber_e]
+                                                      ) [Statement_print]
+                                                      StatementList_statements(
+                                                        Statement_print(
+                                                          Expr_arith(
+                                                            CondFact_expr(
+                                                              ExprTern_nonMinus(
+                                                                Term(
+                                                                  Factor_des(
+                                                                    Designator_dotLength(
+                                                                      Designator_ident(
+                                                                       nizch
+                                                                      ) [Designator_ident]
+                                                                    ) [Designator_dotLength]
+                                                                  ) [Factor_des]
+                                                                  MulFactor_e(
+                                                                  ) [MulFactor_e]
+                                                                ) [Term]
+                                                                AddTerm_e(
+                                                                ) [AddTerm_e]
+                                                              ) [ExprTern_nonMinus]
+                                                            ) [CondFact_expr]
+                                                          ) [Expr_arith]
+                                                          CommaNumber_e(
+                                                          ) [CommaNumber_e]
+                                                        ) [Statement_print]
+                                                        StatementList_statements(
+                                                          Statement_print(
+                                                            Expr_arith(
+                                                              CondFact_expr(
+                                                                ExprTern_nonMinus(
+                                                                  Term(
+                                                                    Factor_des(
+                                                                      Designator_dotLength(
+                                                                        Designator_ident(
+                                                                         niz
+                                                                        ) [Designator_ident]
+                                                                      ) [Designator_dotLength]
+                                                                    ) [Factor_des]
+                                                                    MulFactor_e(
+                                                                    ) [MulFactor_e]
+                                                                  ) [Term]
+                                                                  AddTerm_e(
+                                                                  ) [AddTerm_e]
+                                                                ) [ExprTern_nonMinus]
+                                                              ) [CondFact_expr]
+                                                            ) [Expr_arith]
+                                                            CommaNumber_e(
+                                                            ) [CommaNumber_e]
+                                                          ) [Statement_print]
+                                                          StatementList_statements(
+                                                            Statement_desStatement(
+                                                              DesignatorStatement(
+                                                                Designator_ident(
+                                                                 a
+                                                                ) [Designator_ident]
+                                                                DesignatorList_assign(
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  Expr_arith(
+                                                                    CondFact_expr(
+                                                                      ExprTern_nonMinus(
+                                                                        Term(
+                                                                          Factor_num(
+                                                                           1
+                                                                          ) [Factor_num]
+                                                                          MulFactor_e(
+                                                                          ) [MulFactor_e]
+                                                                        ) [Term]
+                                                                        AddTerm_e(
+                                                                        ) [AddTerm_e]
+                                                                      ) [ExprTern_nonMinus]
+                                                                    ) [CondFact_expr]
+                                                                  ) [Expr_arith]
+                                                                ) [DesignatorList_assign]
+                                                              ) [DesignatorStatement]
+                                                            ) [Statement_desStatement]
+                                                            StatementList_statements(
+                                                              Statement_read(
+                                                                Designator_ident(
+                                                                 bodovi
+                                                                ) [Designator_ident]
+                                                              ) [Statement_read]
+                                                              StatementList_statements(
+                                                                Statement_desStatement(
+                                                                  DesignatorStatement(
+                                                                    Designator_ident(
+                                                                     bodovi
+                                                                    ) [Designator_ident]
+                                                                    DesignatorList_assign(
+                                                                      Assignop(
+                                                                      ) [Assignop]
+                                                                      Expr_arith(
+                                                                        CondFact_expr(
+                                                                          ExprTern_minus(
+                                                                            Term(
+                                                                              Factor_des(
+                                                                                Designator_ident(
+                                                                                 bodovi
+                                                                                ) [Designator_ident]
+                                                                              ) [Factor_des]
+                                                                              MulFactor_e(
+                                                                              ) [MulFactor_e]
+                                                                            ) [Term]
+                                                                            MinusFlag(
+                                                                            ) [MinusFlag]
+                                                                            AddTerm_add(
+                                                                              AddTerm_add(
+                                                                                AddTerm_e(
+                                                                                ) [AddTerm_e]
+                                                                                Addop_plus(
+                                                                                ) [Addop_plus]
+                                                                                Term(
+                                                                                  Factor_expr(
+                                                                                    Expr_arith(
+                                                                                      CondFact_expr(
+                                                                                        ExprTern_nonMinus(
+                                                                                          Term(
+                                                                                            Factor_des(
+                                                                                              Designator_ident(
+                                                                                               pet
+                                                                                              ) [Designator_ident]
+                                                                                            ) [Factor_des]
+                                                                                            MulFactor_mul(
+                                                                                              MulFactor_mul(
+                                                                                                MulFactor_e(
+                                                                                                ) [MulFactor_e]
+                                                                                                Mulop_mul(
+                                                                                                ) [Mulop_mul]
+                                                                                                Factor_des(
+                                                                                                  Designator_ident(
+                                                                                                   a
+                                                                                                  ) [Designator_ident]
+                                                                                                ) [Factor_des]
+                                                                                              ) [MulFactor_mul]
+                                                                                              Mulop_div(
+                                                                                              ) [Mulop_div]
+                                                                                              Factor_num(
+                                                                                               2
+                                                                                              ) [Factor_num]
+                                                                                            ) [MulFactor_mul]
+                                                                                          ) [Term]
+                                                                                          AddTerm_add(
+                                                                                            AddTerm_e(
+                                                                                            ) [AddTerm_e]
+                                                                                            Addop_minus(
+                                                                                            ) [Addop_minus]
+                                                                                            Term(
+                                                                                              Factor_des(
+                                                                                                Designator_ident(
+                                                                                                 nula
+                                                                                                ) [Designator_ident]
+                                                                                              ) [Factor_des]
+                                                                                              MulFactor_e(
+                                                                                              ) [MulFactor_e]
+                                                                                            ) [Term]
+                                                                                          ) [AddTerm_add]
+                                                                                        ) [ExprTern_nonMinus]
+                                                                                      ) [CondFact_expr]
+                                                                                    ) [Expr_arith]
+                                                                                  ) [Factor_expr]
+                                                                                  MulFactor_mul(
+                                                                                    MulFactor_e(
+                                                                                    ) [MulFactor_e]
+                                                                                    Mulop_mul(
+                                                                                    ) [Mulop_mul]
+                                                                                    Factor_des(
+                                                                                      Designator_ident(
+                                                                                       bodovi
+                                                                                      ) [Designator_ident]
+                                                                                    ) [Factor_des]
+                                                                                  ) [MulFactor_mul]
+                                                                                ) [Term]
+                                                                              ) [AddTerm_add]
+                                                                              Addop_minus(
+                                                                              ) [Addop_minus]
+                                                                              Term(
+                                                                                Factor_expr(
+                                                                                  Expr_arith(
+                                                                                    CondFact_expr(
+                                                                                      ExprTern_nonMinus(
+                                                                                        Term(
+                                                                                          Factor_num(
+                                                                                           3
+                                                                                          ) [Factor_num]
+                                                                                          MulFactor_mul(
+                                                                                            MulFactor_e(
+                                                                                            ) [MulFactor_e]
+                                                                                            Mulop_mod(
+                                                                                            ) [Mulop_mod]
+                                                                                            Factor_num(
+                                                                                             2
+                                                                                            ) [Factor_num]
+                                                                                          ) [MulFactor_mul]
+                                                                                        ) [Term]
+                                                                                        AddTerm_add(
+                                                                                          AddTerm_add(
+                                                                                            AddTerm_e(
+                                                                                            ) [AddTerm_e]
+                                                                                            Addop_plus(
+                                                                                            ) [Addop_plus]
+                                                                                            Term(
+                                                                                              Factor_num(
+                                                                                               3
+                                                                                              ) [Factor_num]
+                                                                                              MulFactor_mul(
+                                                                                                MulFactor_e(
+                                                                                                ) [MulFactor_e]
+                                                                                                Mulop_mul(
+                                                                                                ) [Mulop_mul]
+                                                                                                Factor_num(
+                                                                                                 2
+                                                                                                ) [Factor_num]
+                                                                                              ) [MulFactor_mul]
+                                                                                            ) [Term]
+                                                                                          ) [AddTerm_add]
+                                                                                          Addop_minus(
+                                                                                          ) [Addop_minus]
+                                                                                          Term(
+                                                                                            Factor_num(
+                                                                                             7
+                                                                                            ) [Factor_num]
+                                                                                            MulFactor_e(
+                                                                                            ) [MulFactor_e]
+                                                                                          ) [Term]
+                                                                                        ) [AddTerm_add]
+                                                                                      ) [ExprTern_nonMinus]
+                                                                                    ) [CondFact_expr]
+                                                                                  ) [Expr_arith]
+                                                                                ) [Factor_expr]
+                                                                                MulFactor_e(
+                                                                                ) [MulFactor_e]
+                                                                              ) [Term]
+                                                                            ) [AddTerm_add]
+                                                                          ) [ExprTern_minus]
+                                                                        ) [CondFact_expr]
+                                                                      ) [Expr_arith]
+                                                                    ) [DesignatorList_assign]
+                                                                  ) [DesignatorStatement]
+                                                                ) [Statement_desStatement]
+                                                                StatementList_statements(
+                                                                  Statement_print(
+                                                                    Expr_arith(
+                                                                      CondFact_expr(
+                                                                        ExprTern_nonMinus(
+                                                                          Term(
+                                                                            Factor_des(
+                                                                              Designator_ident(
+                                                                               bodovi
+                                                                              ) [Designator_ident]
+                                                                            ) [Factor_des]
+                                                                            MulFactor_e(
+                                                                            ) [MulFactor_e]
+                                                                          ) [Term]
+                                                                          AddTerm_e(
+                                                                          ) [AddTerm_e]
+                                                                        ) [ExprTern_nonMinus]
+                                                                      ) [CondFact_expr]
+                                                                    ) [Expr_arith]
+                                                                    CommaNumber_e(
+                                                                    ) [CommaNumber_e]
+                                                                  ) [Statement_print]
+                                                                  StatementList_statements(
+                                                                    Statement_read(
+                                                                      Designator_ident(
+                                                                       bodovi
+                                                                      ) [Designator_ident]
+                                                                    ) [Statement_read]
+                                                                    StatementList_statements(
+                                                                      Statement_desStatement(
+                                                                        DesignatorStatement(
+                                                                          Designator_ident(
+                                                                           bt
+                                                                          ) [Designator_ident]
+                                                                          DesignatorList_assign(
+                                                                            Assignop(
+                                                                            ) [Assignop]
+                                                                            Expr_arith(
+                                                                              CondFact_expr(
+                                                                                ExprTern_nonMinus(
+                                                                                  Term(
+                                                                                    Factor_bool(
+                                                                                     1
+                                                                                    ) [Factor_bool]
+                                                                                    MulFactor_e(
+                                                                                    ) [MulFactor_e]
+                                                                                  ) [Term]
+                                                                                  AddTerm_e(
+                                                                                  ) [AddTerm_e]
+                                                                                ) [ExprTern_nonMinus]
+                                                                              ) [CondFact_expr]
+                                                                            ) [Expr_arith]
+                                                                          ) [DesignatorList_assign]
+                                                                        ) [DesignatorStatement]
+                                                                      ) [Statement_desStatement]
+                                                                      StatementList_statements(
+                                                                        Statement_print(
+                                                                          Expr_cond(
+                                                                            CondFact_expr(
+                                                                              ExprTern_nonMinus(
+                                                                                Term(
+                                                                                  Factor_des(
+                                                                                    Designator_ident(
+                                                                                     bt
+                                                                                    ) [Designator_ident]
+                                                                                  ) [Factor_des]
+                                                                                  MulFactor_e(
+                                                                                  ) [MulFactor_e]
+                                                                                ) [Term]
+                                                                                AddTerm_e(
+                                                                                ) [AddTerm_e]
+                                                                              ) [ExprTern_nonMinus]
+                                                                            ) [CondFact_expr]
+                                                                            Expr_arith(
+                                                                              CondFact_expr(
+                                                                                ExprTern_nonMinus(
+                                                                                  Term(
+                                                                                    Factor_des(
+                                                                                      Designator_ident(
+                                                                                       bodovi
+                                                                                      ) [Designator_ident]
+                                                                                    ) [Factor_des]
+                                                                                    MulFactor_e(
+                                                                                    ) [MulFactor_e]
+                                                                                  ) [Term]
+                                                                                  AddTerm_e(
+                                                                                  ) [AddTerm_e]
+                                                                                ) [ExprTern_nonMinus]
+                                                                              ) [CondFact_expr]
+                                                                            ) [Expr_arith]
+                                                                            Expr_arith(
+                                                                              CondFact_expr(
+                                                                                ExprTern_nonMinus(
+                                                                                  Term(
+                                                                                    Factor_des(
+                                                                                      Designator_ident(
+                                                                                       bodovi
+                                                                                      ) [Designator_ident]
+                                                                                    ) [Factor_des]
+                                                                                    MulFactor_e(
+                                                                                    ) [MulFactor_e]
+                                                                                  ) [Term]
+                                                                                  AddTerm_add(
+                                                                                    AddTerm_e(
+                                                                                    ) [AddTerm_e]
+                                                                                    Addop_plus(
+                                                                                    ) [Addop_plus]
+                                                                                    Term(
+                                                                                      Factor_num(
+                                                                                       10
+                                                                                      ) [Factor_num]
+                                                                                      MulFactor_e(
+                                                                                      ) [MulFactor_e]
+                                                                                    ) [Term]
+                                                                                  ) [AddTerm_add]
+                                                                                ) [ExprTern_nonMinus]
+                                                                              ) [CondFact_expr]
+                                                                            ) [Expr_arith]
+                                                                          ) [Expr_cond]
+                                                                          CommaNumber_e(
+                                                                          ) [CommaNumber_e]
+                                                                        ) [Statement_print]
+                                                                        StatementList_statements(
+                                                                          Statement_print(
+                                                                            Expr_cond(
+                                                                              CondFact_expr(
+                                                                                ExprTern_nonMinus(
+                                                                                  Term(
+                                                                                    Factor_bool(
+                                                                                     0
+                                                                                    ) [Factor_bool]
+                                                                                    MulFactor_e(
+                                                                                    ) [MulFactor_e]
+                                                                                  ) [Term]
+                                                                                  AddTerm_e(
+                                                                                  ) [AddTerm_e]
+                                                                                ) [ExprTern_nonMinus]
+                                                                              ) [CondFact_expr]
+                                                                              Expr_arith(
+                                                                                CondFact_expr(
+                                                                                  ExprTern_nonMinus(
+                                                                                    Term(
+                                                                                      Factor_des(
+                                                                                        Designator_ident(
+                                                                                         bodovi
+                                                                                        ) [Designator_ident]
+                                                                                      ) [Factor_des]
+                                                                                      MulFactor_e(
+                                                                                      ) [MulFactor_e]
+                                                                                    ) [Term]
+                                                                                    AddTerm_add(
+                                                                                      AddTerm_e(
+                                                                                      ) [AddTerm_e]
+                                                                                      Addop_plus(
+                                                                                      ) [Addop_plus]
+                                                                                      Term(
+                                                                                        Factor_num(
+                                                                                         20
+                                                                                        ) [Factor_num]
+                                                                                        MulFactor_e(
+                                                                                        ) [MulFactor_e]
+                                                                                      ) [Term]
+                                                                                    ) [AddTerm_add]
+                                                                                  ) [ExprTern_nonMinus]
+                                                                                ) [CondFact_expr]
+                                                                              ) [Expr_arith]
+                                                                              Expr_arith(
+                                                                                CondFact_expr(
+                                                                                  ExprTern_nonMinus(
+                                                                                    Term(
+                                                                                      Factor_des(
+                                                                                        Designator_ident(
+                                                                                         bodovi
+                                                                                        ) [Designator_ident]
+                                                                                      ) [Factor_des]
+                                                                                      MulFactor_e(
+                                                                                      ) [MulFactor_e]
+                                                                                    ) [Term]
+                                                                                    AddTerm_add(
+                                                                                      AddTerm_e(
+                                                                                      ) [AddTerm_e]
+                                                                                      Addop_plus(
+                                                                                      ) [Addop_plus]
+                                                                                      Term(
+                                                                                        Factor_num(
+                                                                                         30
+                                                                                        ) [Factor_num]
+                                                                                        MulFactor_e(
+                                                                                        ) [MulFactor_e]
+                                                                                      ) [Term]
+                                                                                    ) [AddTerm_add]
+                                                                                  ) [ExprTern_nonMinus]
+                                                                                ) [CondFact_expr]
+                                                                              ) [Expr_arith]
+                                                                            ) [Expr_cond]
+                                                                            CommaNumber_e(
+                                                                            ) [CommaNumber_e]
+                                                                          ) [Statement_print]
+                                                                          StatementList_statements(
+                                                                            Statement_print(
+                                                                              Expr_cond(
+                                                                                CondFact_relopExpr(
+                                                                                  ExprTern_nonMinus(
+                                                                                    Term(
+                                                                                      Factor_des(
+                                                                                        Designator_ident(
+                                                                                         bodovi
+                                                                                        ) [Designator_ident]
+                                                                                      ) [Factor_des]
+                                                                                      MulFactor_e(
+                                                                                      ) [MulFactor_e]
+                                                                                    ) [Term]
+                                                                                    AddTerm_e(
+                                                                                    ) [AddTerm_e]
+                                                                                  ) [ExprTern_nonMinus]
+                                                                                  Relop_gt(
+                                                                                  ) [Relop_gt]
+                                                                                  ExprTern_nonMinus(
+                                                                                    Term(
+                                                                                      Factor_num(
+                                                                                       10
+                                                                                      ) [Factor_num]
+                                                                                      MulFactor_e(
+                                                                                      ) [MulFactor_e]
+                                                                                    ) [Term]
+                                                                                    AddTerm_e(
+                                                                                    ) [AddTerm_e]
+                                                                                  ) [ExprTern_nonMinus]
+                                                                                ) [CondFact_relopExpr]
+                                                                                Expr_arith(
+                                                                                  CondFact_expr(
+                                                                                    ExprTern_nonMinus(
+                                                                                      Term(
+                                                                                        Factor_char(
+                                                                                         +
+                                                                                        ) [Factor_char]
+                                                                                        MulFactor_e(
+                                                                                        ) [MulFactor_e]
+                                                                                      ) [Term]
+                                                                                      AddTerm_e(
+                                                                                      ) [AddTerm_e]
+                                                                                    ) [ExprTern_nonMinus]
+                                                                                  ) [CondFact_expr]
+                                                                                ) [Expr_arith]
+                                                                                Expr_arith(
+                                                                                  CondFact_expr(
+                                                                                    ExprTern_nonMinus(
+                                                                                      Term(
+                                                                                        Factor_char(
+                                                                                         -
+                                                                                        ) [Factor_char]
+                                                                                        MulFactor_e(
+                                                                                        ) [MulFactor_e]
+                                                                                      ) [Term]
+                                                                                      AddTerm_e(
+                                                                                      ) [AddTerm_e]
+                                                                                    ) [ExprTern_nonMinus]
+                                                                                  ) [CondFact_expr]
+                                                                                ) [Expr_arith]
+                                                                              ) [Expr_cond]
+                                                                              CommaNumber_e(
+                                                                              ) [CommaNumber_e]
+                                                                            ) [Statement_print]
+                                                                            StatementList_statements(
+                                                                              Statement_print(
+                                                                                Expr_arith(
+                                                                                  CondFact_expr(
+                                                                                    ExprTern_nonMinus(
+                                                                                      Term(
+                                                                                        Factor_des(
+                                                                                          Designator_ident(
+                                                                                           eol
+                                                                                          ) [Designator_ident]
+                                                                                        ) [Factor_des]
+                                                                                        MulFactor_e(
+                                                                                        ) [MulFactor_e]
+                                                                                      ) [Term]
+                                                                                      AddTerm_e(
+                                                                                      ) [AddTerm_e]
+                                                                                    ) [ExprTern_nonMinus]
+                                                                                  ) [CondFact_expr]
+                                                                                ) [Expr_arith]
+                                                                                CommaNumber_e(
+                                                                                ) [CommaNumber_e]
+                                                                              ) [Statement_print]
+                                                                              StatementList_statements(
+                                                                                Statement_findAny(
+                                                                                  Designator_ident(
+                                                                                   bt
+                                                                                  ) [Designator_ident]
+                                                                                  Assignop(
+                                                                                  ) [Assignop]
+                                                                                  Designator_ident(
+                                                                                   niz
+                                                                                  ) [Designator_ident]
+                                                                                  FindAnyFlag(
+                                                                                  ) [FindAnyFlag]
+                                                                                  Expr_arith(
+                                                                                    CondFact_expr(
+                                                                                      ExprTern_nonMinus(
+                                                                                        Term(
+                                                                                          Factor_num(
+                                                                                           12
+                                                                                          ) [Factor_num]
+                                                                                          MulFactor_e(
+                                                                                          ) [MulFactor_e]
+                                                                                        ) [Term]
+                                                                                        AddTerm_e(
+                                                                                        ) [AddTerm_e]
+                                                                                      ) [ExprTern_nonMinus]
+                                                                                    ) [CondFact_expr]
+                                                                                  ) [Expr_arith]
+                                                                                ) [Statement_findAny]
+                                                                                StatementList_statements(
+                                                                                  Statement_print(
+                                                                                    Expr_arith(
+                                                                                      CondFact_expr(
+                                                                                        ExprTern_nonMinus(
+                                                                                          Term(
+                                                                                            Factor_des(
+                                                                                              Designator_ident(
+                                                                                               bt
+                                                                                              ) [Designator_ident]
+                                                                                            ) [Factor_des]
+                                                                                            MulFactor_e(
+                                                                                            ) [MulFactor_e]
+                                                                                          ) [Term]
+                                                                                          AddTerm_e(
+                                                                                          ) [AddTerm_e]
+                                                                                        ) [ExprTern_nonMinus]
+                                                                                      ) [CondFact_expr]
+                                                                                    ) [Expr_arith]
+                                                                                    CommaNumber_e(
+                                                                                    ) [CommaNumber_e]
+                                                                                  ) [Statement_print]
+                                                                                  StatementList_statements(
+                                                                                    Statement_print(
+                                                                                      Expr_arith(
+                                                                                        CondFact_expr(
+                                                                                          ExprTern_nonMinus(
+                                                                                            Term(
+                                                                                              Factor_des(
+                                                                                                Designator_ident(
+                                                                                                 eol
+                                                                                                ) [Designator_ident]
+                                                                                              ) [Factor_des]
+                                                                                              MulFactor_e(
+                                                                                              ) [MulFactor_e]
+                                                                                            ) [Term]
+                                                                                            AddTerm_e(
+                                                                                            ) [AddTerm_e]
+                                                                                          ) [ExprTern_nonMinus]
+                                                                                        ) [CondFact_expr]
+                                                                                      ) [Expr_arith]
+                                                                                      CommaNumber_e(
+                                                                                      ) [CommaNumber_e]
+                                                                                    ) [Statement_print]
+                                                                                    StatementList_statements(
+                                                                                      Statement_findAny(
+                                                                                        Designator_ident(
+                                                                                         bt
+                                                                                        ) [Designator_ident]
+                                                                                        Assignop(
+                                                                                        ) [Assignop]
+                                                                                        Designator_ident(
+                                                                                         niz
+                                                                                        ) [Designator_ident]
+                                                                                        FindAnyFlag(
+                                                                                        ) [FindAnyFlag]
+                                                                                        Expr_arith(
+                                                                                          CondFact_expr(
+                                                                                            ExprTern_nonMinus(
+                                                                                              Term(
+                                                                                                Factor_des(
+                                                                                                  Designator_ident(
+                                                                                                   pet
+                                                                                                  ) [Designator_ident]
+                                                                                                ) [Factor_des]
+                                                                                                MulFactor_e(
+                                                                                                ) [MulFactor_e]
+                                                                                              ) [Term]
+                                                                                              AddTerm_add(
+                                                                                                AddTerm_add(
+                                                                                                  AddTerm_e(
+                                                                                                  ) [AddTerm_e]
+                                                                                                  Addop_minus(
+                                                                                                  ) [Addop_minus]
+                                                                                                  Term(
+                                                                                                    Factor_des(
+                                                                                                      Designator_ident(
+                                                                                                       jedan
+                                                                                                      ) [Designator_ident]
+                                                                                                    ) [Factor_des]
+                                                                                                    MulFactor_e(
+                                                                                                    ) [MulFactor_e]
+                                                                                                  ) [Term]
+                                                                                                ) [AddTerm_add]
+                                                                                                Addop_minus(
+                                                                                                ) [Addop_minus]
+                                                                                                Term(
+                                                                                                  Factor_des(
+                                                                                                    Designator_ident(
+                                                                                                     jedan
+                                                                                                    ) [Designator_ident]
+                                                                                                  ) [Factor_des]
+                                                                                                  MulFactor_e(
+                                                                                                  ) [MulFactor_e]
+                                                                                                ) [Term]
+                                                                                              ) [AddTerm_add]
+                                                                                            ) [ExprTern_nonMinus]
+                                                                                          ) [CondFact_expr]
+                                                                                        ) [Expr_arith]
+                                                                                      ) [Statement_findAny]
+                                                                                      StatementList_statements(
+                                                                                        Statement_print(
+                                                                                          Expr_arith(
+                                                                                            CondFact_expr(
+                                                                                              ExprTern_nonMinus(
+                                                                                                Term(
+                                                                                                  Factor_des(
+                                                                                                    Designator_ident(
+                                                                                                     bt
+                                                                                                    ) [Designator_ident]
+                                                                                                  ) [Factor_des]
+                                                                                                  MulFactor_e(
+                                                                                                  ) [MulFactor_e]
+                                                                                                ) [Term]
+                                                                                                AddTerm_e(
+                                                                                                ) [AddTerm_e]
+                                                                                              ) [ExprTern_nonMinus]
+                                                                                            ) [CondFact_expr]
+                                                                                          ) [Expr_arith]
+                                                                                          CommaNumber_e(
+                                                                                          ) [CommaNumber_e]
+                                                                                        ) [Statement_print]
+                                                                                        StatementList_statements(
+                                                                                          Statement_print(
+                                                                                            Expr_arith(
+                                                                                              CondFact_expr(
+                                                                                                ExprTern_nonMinus(
+                                                                                                  Term(
+                                                                                                    Factor_des(
+                                                                                                      Designator_ident(
+                                                                                                       eol
+                                                                                                      ) [Designator_ident]
+                                                                                                    ) [Factor_des]
+                                                                                                    MulFactor_e(
+                                                                                                    ) [MulFactor_e]
+                                                                                                  ) [Term]
+                                                                                                  AddTerm_e(
+                                                                                                  ) [AddTerm_e]
+                                                                                                ) [ExprTern_nonMinus]
+                                                                                              ) [CondFact_expr]
+                                                                                            ) [Expr_arith]
+                                                                                            CommaNumber_e(
+                                                                                            ) [CommaNumber_e]
+                                                                                          ) [Statement_print]
+                                                                                          StatementList_statements(
+                                                                                            Statement_findAny(
+                                                                                              Designator_ident(
+                                                                                               bt
+                                                                                              ) [Designator_ident]
+                                                                                              Assignop(
+                                                                                              ) [Assignop]
+                                                                                              Designator_ident(
+                                                                                               niz
+                                                                                              ) [Designator_ident]
+                                                                                              FindAnyFlag(
+                                                                                              ) [FindAnyFlag]
+                                                                                              Expr_arith(
+                                                                                                CondFact_expr(
+                                                                                                  ExprTern_nonMinus(
+                                                                                                    Term(
+                                                                                                      Factor_des(
+                                                                                                        Designator_ident(
+                                                                                                         bodovi
+                                                                                                        ) [Designator_ident]
+                                                                                                      ) [Factor_des]
+                                                                                                      MulFactor_e(
+                                                                                                      ) [MulFactor_e]
+                                                                                                    ) [Term]
+                                                                                                    AddTerm_e(
+                                                                                                    ) [AddTerm_e]
+                                                                                                  ) [ExprTern_nonMinus]
+                                                                                                ) [CondFact_expr]
+                                                                                              ) [Expr_arith]
+                                                                                            ) [Statement_findAny]
+                                                                                            StatementList_statements(
+                                                                                              Statement_print(
+                                                                                                Expr_arith(
+                                                                                                  CondFact_expr(
+                                                                                                    ExprTern_nonMinus(
+                                                                                                      Term(
+                                                                                                        Factor_des(
+                                                                                                          Designator_ident(
+                                                                                                           bt
+                                                                                                          ) [Designator_ident]
+                                                                                                        ) [Factor_des]
+                                                                                                        MulFactor_e(
+                                                                                                        ) [MulFactor_e]
+                                                                                                      ) [Term]
+                                                                                                      AddTerm_e(
+                                                                                                      ) [AddTerm_e]
+                                                                                                    ) [ExprTern_nonMinus]
+                                                                                                  ) [CondFact_expr]
+                                                                                                ) [Expr_arith]
+                                                                                                CommaNumber_e(
+                                                                                                ) [CommaNumber_e]
+                                                                                              ) [Statement_print]
+                                                                                              StatementList_statements(
+                                                                                                Statement_print(
+                                                                                                  Expr_arith(
+                                                                                                    CondFact_expr(
+                                                                                                      ExprTern_nonMinus(
+                                                                                                        Term(
+                                                                                                          Factor_des(
+                                                                                                            Designator_ident(
+                                                                                                             eol
+                                                                                                            ) [Designator_ident]
+                                                                                                          ) [Factor_des]
+                                                                                                          MulFactor_e(
+                                                                                                          ) [MulFactor_e]
+                                                                                                        ) [Term]
+                                                                                                        AddTerm_e(
+                                                                                                        ) [AddTerm_e]
+                                                                                                      ) [ExprTern_nonMinus]
+                                                                                                    ) [CondFact_expr]
+                                                                                                  ) [Expr_arith]
+                                                                                                  CommaNumber_e(
+                                                                                                  ) [CommaNumber_e]
+                                                                                                ) [Statement_print]
+                                                                                                StatementList_e(
+                                                                                                ) [StatementList_e]
+                                                                                              ) [StatementList_statements]
+                                                                                            ) [StatementList_statements]
+                                                                                          ) [StatementList_statements]
+                                                                                        ) [StatementList_statements]
+                                                                                      ) [StatementList_statements]
+                                                                                    ) [StatementList_statements]
+                                                                                  ) [StatementList_statements]
+                                                                                ) [StatementList_statements]
+                                                                              ) [StatementList_statements]
+                                                                            ) [StatementList_statements]
+                                                                          ) [StatementList_statements]
+                                                                        ) [StatementList_statements]
+                                                                      ) [StatementList_statements]
+                                                                    ) [StatementList_statements]
+                                                                  ) [StatementList_statements]
+                                                                ) [StatementList_statements]
+                                                              ) [StatementList_statements]
+                                                            ) [StatementList_statements]
+                                                          ) [StatementList_statements]
+                                                        ) [StatementList_statements]
+                                                      ) [StatementList_statements]
+                                                    ) [StatementList_statements]
+                                                  ) [StatementList_statements]
+                                                ) [StatementList_statements]
+                                              ) [StatementList_statements]
+                                            ) [StatementList_statements]
+                                          ) [StatementList_statements]
+                                        ) [StatementList_statements]
+                                      ) [StatementList_statements]
+                                    ) [StatementList_statements]
+                                  ) [StatementList_statements]
+                                ) [StatementList_statements]
+                              ) [StatementList_statements]
+                            ) [StatementList_statements]
+                          ) [StatementList_statements]
+                        ) [StatementList_statements]
+                      ) [StatementList_statements]
+                    ) [StatementList_statements]
+                  ) [StatementList_statements]
+                ) [StatementList_statements]
+              ) [StatementList_statements]
+            ) [StatementList_statements]
+          ) [StatementList_statements]
+        ) [StatementList_statements]
+      ) [StatementList_statements]
+    ) [StatementList_statements]
+  ) [MethodDecl]
+) [Program]
+INFO  17:42:05,917 - =====================================================================
+INFO  17:42:05,925 - =====================================================================
+INFO  17:42:05,925 - Parsiranje uspesno zavrseno!

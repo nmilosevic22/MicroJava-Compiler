@@ -1,0 +1,53 @@
+INFO  00:12:59,754 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:12:59,777 - #2 program
+INFO  00:12:59,778 - #18 Programcina
+INFO  00:12:59,779 - #5 const
+INFO  00:12:59,779 - #18 int
+INFO  00:12:59,780 - #18 pi
+INFO  00:12:59,780 - #9 =
+INFO  00:12:59,780 - #15 3
+INFO  00:12:59,780 - #7 ;
+INFO  00:12:59,782 - #3 {
+INFO  00:12:59,783 - #19 void
+INFO  00:12:59,783 - #18 main
+INFO  00:12:59,783 - #13 (
+INFO  00:12:59,783 - #14 )
+INFO  00:12:59,783 - #3 {
+INFO  00:12:59,784 - #4 }
+INFO  00:12:59,784 - #4 }
+INFO  00:12:59,787 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Constant_num(
+         3
+        ) [Constant_num]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_const]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  00:12:59,788 - =====================================================================
+INFO  00:12:59,793 - =====================================================================
+INFO  00:12:59,793 - Parsiranje uspesno zavrseno!

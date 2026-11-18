@@ -1,0 +1,203 @@
+INFO  22:08:46,839 - Compiling source file: C:\Users\milos\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:08:46,858 - #2 program
+INFO  22:08:46,858 - #18 Programcina
+INFO  22:08:46,858 - #6 enum
+INFO  22:08:46,859 - #18 Color
+INFO  22:08:46,859 - #3 {
+INFO  22:08:46,859 - #18 a
+INFO  22:08:46,859 - #10 ,
+INFO  22:08:46,860 - #18 b
+INFO  22:08:46,860 - #9 =
+INFO  22:08:46,860 - #15 4
+INFO  22:08:46,860 - #10 ,
+INFO  22:08:46,860 - #18 c
+INFO  22:08:46,860 - #4 }
+INFO  22:08:46,860 - #7 ;
+INFO  22:08:46,861 - #6 enum
+INFO  22:08:46,861 - #18 Position
+INFO  22:08:46,861 - #3 {
+INFO  22:08:46,861 - #18 p
+INFO  22:08:46,861 - #10 ,
+INFO  22:08:46,861 - #18 q
+INFO  22:08:46,861 - #10 ,
+INFO  22:08:46,861 - #18 r
+INFO  22:08:46,862 - #4 }
+INFO  22:08:46,862 - #7 ;
+INFO  22:08:46,862 - #18 int
+INFO  22:08:46,862 - #18 x
+INFO  22:08:46,862 - #7 ;
+INFO  22:08:46,864 - #3 {
+INFO  22:08:46,864 - #19 void
+INFO  22:08:46,864 - #18 main
+INFO  22:08:46,864 - #13 (
+INFO  22:08:46,865 - #14 )
+INFO  22:08:46,865 - #18 int
+INFO  22:08:46,865 - #18 y
+INFO  22:08:46,865 - #11 [
+INFO  22:08:46,865 - #12 ]
+INFO  22:08:46,865 - #7 ;
+INFO  22:08:46,865 - #18 Color
+INFO  22:08:46,865 - #18 curEnum
+INFO  22:08:46,865 - #7 ;
+INFO  22:08:46,865 - #3 {
+INFO  22:08:46,865 - #18 x
+INFO  22:08:46,865 - #9 =
+INFO  22:08:46,867 - #18 Color
+INFO  22:08:46,867 - #27 .
+INFO  22:08:46,867 - #26 length
+INFO  22:08:46,867 - #7 ;
+INFO  22:08:46,868 - #4 }
+INFO  22:08:46,869 - #4 }
+INFO  22:08:46,872 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       Color
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           4
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_enum(
+      EnumDeclList(
+        EnumName(
+         Position
+        ) [EnumName]
+        EnumDecl(
+         p
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           q
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_more(
+            EnumDecl(
+             r
+              NumAssign_e(
+              ) [NumAssign_e]
+            ) [EnumDecl]
+            EnumDeclMore_e(
+            ) [EnumDeclMore_e]
+          ) [EnumDeclMore_more]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclList]
+      ConVarEnumDeclList_var(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           x
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        ConVarEnumDeclList_e(
+        ) [ConVarEnumDeclList_e]
+      ) [ConVarEnumDeclList_var]
+    ) [ConVarEnumDeclList_enum]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             y
+              Brackets_true(
+              ) [Brackets_true]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           Color
+          ) [Type]
+          VarDecl(
+           curEnum
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator_ident(
+             x
+            ) [Designator_ident]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_des(
+                        Designator_dotLength(
+                          Designator_ident(
+                           Color
+                          ) [Designator_ident]
+                        ) [Designator_dotLength]
+                      ) [Factor_des]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  22:08:46,872 - =====================================================================
+ERROR 22:08:46,877 - Base: Color is not an array. na liniji 10
+INFO  22:08:46,877 - =====================================================================
+ERROR 22:08:46,878 - Parsiranje NIJE uspesno zavrseno!

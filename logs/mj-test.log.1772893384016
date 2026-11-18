@@ -1,0 +1,16 @@
+INFO  15:22:56,500 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:22:56,522 - #2 program
+INFO  15:22:56,522 - #18 Programcina
+INFO  15:22:56,522 - #6 enum
+INFO  15:22:56,523 - #18 x
+INFO  15:22:56,523 - #3 {
+INFO  15:22:56,524 - #18 a
+INFO  15:22:56,524 - #10 ,
+INFO  15:22:56,524 - #18 b
+INFO  15:22:56,524 - #10 ,
+INFO  15:22:56,524 - #18 c
+INFO  15:22:56,524 - #4 }
+INFO  15:22:56,524 - #3 {
+ERROR 15:22:56,526 - 
+Sintaksna greska na liniji 5
+ERROR 15:22:56,526 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

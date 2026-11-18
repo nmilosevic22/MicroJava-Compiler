@@ -1,0 +1,219 @@
+INFO  23:27:30,638 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:27:30,662 - #2 program
+INFO  23:27:30,662 - #18 Programcina
+INFO  23:27:30,662 - #6 enum
+INFO  23:27:30,663 - #18 Color
+INFO  23:27:30,663 - #3 {
+INFO  23:27:30,663 - #18 a
+INFO  23:27:30,663 - #10 ,
+INFO  23:27:30,664 - #18 b
+INFO  23:27:30,664 - #9 =
+INFO  23:27:30,664 - #15 4
+INFO  23:27:30,664 - #10 ,
+INFO  23:27:30,664 - #18 c
+INFO  23:27:30,664 - #4 }
+INFO  23:27:30,665 - #7 ;
+INFO  23:27:30,665 - #6 enum
+INFO  23:27:30,665 - #18 Position
+INFO  23:27:30,666 - #3 {
+INFO  23:27:30,666 - #18 p
+INFO  23:27:30,666 - #10 ,
+INFO  23:27:30,666 - #18 q
+INFO  23:27:30,666 - #10 ,
+INFO  23:27:30,667 - #18 r
+INFO  23:27:30,667 - #4 }
+INFO  23:27:30,667 - #7 ;
+INFO  23:27:30,667 - #18 int
+INFO  23:27:30,667 - #18 x
+INFO  23:27:30,668 - #7 ;
+INFO  23:27:30,670 - #3 {
+INFO  23:27:30,671 - #19 void
+INFO  23:27:30,671 - #18 main
+INFO  23:27:30,671 - #13 (
+INFO  23:27:30,671 - #14 )
+INFO  23:27:30,671 - #18 int
+INFO  23:27:30,672 - #18 y
+INFO  23:27:30,672 - #11 [
+INFO  23:27:30,672 - #12 ]
+INFO  23:27:30,672 - #7 ;
+INFO  23:27:30,673 - #18 Color
+INFO  23:27:30,673 - #18 curEnum
+INFO  23:27:30,673 - #7 ;
+INFO  23:27:30,673 - #3 {
+INFO  23:27:30,673 - #18 x
+INFO  23:27:30,674 - #9 =
+INFO  23:27:30,674 - #18 y
+INFO  23:27:30,676 - #11 [
+INFO  23:27:30,676 - #15 2
+INFO  23:27:30,676 - #12 ]
+INFO  23:27:30,678 - #7 ;
+INFO  23:27:30,679 - #4 }
+INFO  23:27:30,680 - #4 }
+INFO  23:27:30,684 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       Color
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           4
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_enum(
+      EnumDeclList(
+        EnumName(
+         Position
+        ) [EnumName]
+        EnumDecl(
+         p
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           q
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_more(
+            EnumDecl(
+             r
+              NumAssign_e(
+              ) [NumAssign_e]
+            ) [EnumDecl]
+            EnumDeclMore_e(
+            ) [EnumDeclMore_e]
+          ) [EnumDeclMore_more]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclList]
+      ConVarEnumDeclList_var(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           x
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        ConVarEnumDeclList_e(
+        ) [ConVarEnumDeclList_e]
+      ) [ConVarEnumDeclList_var]
+    ) [ConVarEnumDeclList_enum]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             y
+              Brackets_true(
+              ) [Brackets_true]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           Color
+          ) [Type]
+          VarDecl(
+           curEnum
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator_ident(
+             x
+            ) [Designator_ident]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_des(
+                        Designator_index(
+                          Designator_ident(
+                           y
+                          ) [Designator_ident]
+                          Expr_arith(
+                            CondFact_expr(
+                              ExprTern_nonMinus(
+                                Term(
+                                  Factor_num(
+                                   2
+                                  ) [Factor_num]
+                                  MulFactor_e(
+                                  ) [MulFactor_e]
+                                ) [Term]
+                                AddTerm_e(
+                                ) [AddTerm_e]
+                              ) [ExprTern_nonMinus]
+                            ) [CondFact_expr]
+                          ) [Expr_arith]
+                        ) [Designator_index]
+                      ) [Factor_des]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  23:27:30,685 - =====================================================================
+ERROR 23:27:30,690 - Array index must be int type. na liniji 10
+INFO  23:27:30,690 - =====================================================================
+ERROR 23:27:30,690 - Parsiranje NIJE uspesno zavrseno!

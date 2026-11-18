@@ -1,0 +1,156 @@
+INFO  12:24:39,844 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:24:39,868 - #2 program
+INFO  12:24:39,869 - #18 Programcina
+INFO  12:24:39,869 - #5 const
+INFO  12:24:39,869 - #18 int
+INFO  12:24:39,869 - #18 c
+INFO  12:24:39,870 - #9 =
+INFO  12:24:39,870 - #15 5
+INFO  12:24:39,870 - #7 ;
+INFO  12:24:39,871 - #18 int
+INFO  12:24:39,871 - #18 p
+INFO  12:24:39,871 - #7 ;
+INFO  12:24:39,872 - #18 int
+INFO  12:24:39,872 - #18 asd
+INFO  12:24:39,872 - #7 ;
+INFO  12:24:39,873 - #3 {
+INFO  12:24:39,873 - #19 void
+INFO  12:24:39,873 - #18 main
+INFO  12:24:39,873 - #13 (
+INFO  12:24:39,874 - #14 )
+INFO  12:24:39,874 - #18 int
+INFO  12:24:39,874 - #18 y
+INFO  12:24:39,874 - #11 [
+INFO  12:24:39,875 - #12 ]
+INFO  12:24:39,875 - #7 ;
+INFO  12:24:39,875 - #18 int
+INFO  12:24:39,875 - #18 x
+INFO  12:24:39,876 - #7 ;
+INFO  12:24:39,876 - #3 {
+INFO  12:24:39,876 - #25 print
+INFO  12:24:39,876 - #13 (
+INFO  12:24:39,876 - #15 3
+INFO  12:24:39,876 - #30 *
+INFO  12:24:39,879 - #15 2
+INFO  12:24:39,879 - #14 )
+INFO  12:24:39,882 - #7 ;
+INFO  12:24:39,883 - #4 }
+INFO  12:24:39,883 - #4 }
+INFO  12:24:39,888 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       c
+        Constant_num(
+         5
+        ) [Constant_num]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         p
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_var(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           asd
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        ConVarEnumDeclList_e(
+        ) [ConVarEnumDeclList_e]
+      ) [ConVarEnumDeclList_var]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_const]
+  MethodDecl(
+    Method(
+     main
+    ) [Method]
+    VarDeclListSingle_true(
+      VarDeclListSingle_true(
+        VarDeclListSingle_e(
+        ) [VarDeclListSingle_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [VarDeclListSingle_true]
+    StatementList_statements(
+      Statement_print(
+        Expr_arith(
+          CondFact_expr(
+            ExprTern_nonMinus(
+              Term(
+                Factor_num(
+                 3
+                ) [Factor_num]
+                MulFactor_mul(
+                  MulFactor_e(
+                  ) [MulFactor_e]
+                  Mulop_mul(
+                  ) [Mulop_mul]
+                  Factor_num(
+                   2
+                  ) [Factor_num]
+                ) [MulFactor_mul]
+              ) [Term]
+              AddTerm_e(
+              ) [AddTerm_e]
+            ) [ExprTern_nonMinus]
+          ) [CondFact_expr]
+        ) [Expr_arith]
+        CommaNumber_e(
+        ) [CommaNumber_e]
+      ) [Statement_print]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [StatementList_statements]
+  ) [MethodDecl]
+) [Program]
+INFO  12:24:39,888 - =====================================================================
+INFO  12:24:39,894 - =====================================================================
+INFO  12:24:39,895 - Parsiranje uspesno zavrseno!

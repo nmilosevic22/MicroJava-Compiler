@@ -1,0 +1,116 @@
+INFO  22:06:01,987 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:06:02,009 - #2 program
+INFO  22:06:02,010 - #18 Programcina
+INFO  22:06:02,010 - #5 const
+INFO  22:06:02,010 - #18 int
+INFO  22:06:02,010 - #18 c
+INFO  22:06:02,010 - #9 =
+INFO  22:06:02,010 - #15 5
+INFO  22:06:02,010 - #7 ;
+INFO  22:06:02,012 - #18 int
+INFO  22:06:02,012 - #18 p
+INFO  22:06:02,012 - #7 ;
+INFO  22:06:02,015 - #3 {
+INFO  22:06:02,016 - #19 void
+INFO  22:06:02,016 - #18 main
+INFO  22:06:02,017 - #13 (
+INFO  22:06:02,018 - #14 )
+INFO  22:06:02,018 - #18 int
+INFO  22:06:02,019 - #18 y
+INFO  22:06:02,019 - #11 [
+INFO  22:06:02,019 - #12 ]
+INFO  22:06:02,019 - #7 ;
+INFO  22:06:02,020 - #18 int
+INFO  22:06:02,020 - #18 x
+INFO  22:06:02,020 - #7 ;
+INFO  22:06:02,020 - #3 {
+INFO  22:06:02,020 - #24 read
+INFO  22:06:02,020 - #13 (
+INFO  22:06:02,020 - #18 x
+INFO  22:06:02,020 - #14 )
+INFO  22:06:02,020 - #7 ;
+INFO  22:06:02,020 - #4 }
+INFO  22:06:02,022 - #4 }
+INFO  22:06:02,026 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       c
+        Constant_num(
+         5
+        ) [Constant_num]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         p
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_const]
+  MethodDecl(
+    Method(
+     main
+    ) [Method]
+    VarDeclListSingle_true(
+      VarDeclListSingle_true(
+        VarDeclListSingle_e(
+        ) [VarDeclListSingle_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+    ) [VarDeclListSingle_true]
+    StatementList_statements(
+      Statement_read(
+        Designator_ident(
+         x
+        ) [Designator_ident]
+      ) [Statement_read]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [StatementList_statements]
+  ) [MethodDecl]
+) [Program]
+INFO  22:06:02,026 - =====================================================================
+INFO  22:06:02,031 - =====================================================================
+INFO  22:06:02,032 - Parsiranje uspesno zavrseno!

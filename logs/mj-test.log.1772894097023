@@ -1,0 +1,126 @@
+INFO  15:25:45,075 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:25:45,097 - #2 program
+INFO  15:25:45,097 - #18 Programcina
+INFO  15:25:45,097 - #6 enum
+INFO  15:25:45,098 - #18 x
+INFO  15:25:45,098 - #3 {
+INFO  15:25:45,098 - #18 a
+INFO  15:25:45,099 - #10 ,
+INFO  15:25:45,101 - #18 b
+INFO  15:25:45,101 - #10 ,
+INFO  15:25:45,101 - #18 c
+INFO  15:25:45,101 - #4 }
+INFO  15:25:45,101 - #7 ;
+INFO  15:25:45,101 - #3 {
+INFO  15:25:45,102 - #19 void
+INFO  15:25:45,102 - #18 main
+INFO  15:25:45,102 - #13 (
+INFO  15:25:45,103 - #14 )
+INFO  15:25:45,103 - #18 int
+INFO  15:25:45,104 - #18 x
+INFO  15:25:45,104 - #7 ;
+INFO  15:25:45,105 - #3 {
+INFO  15:25:45,106 - #18 x
+INFO  15:25:45,107 - #27 .
+INFO  15:25:45,107 - #18 b
+INFO  15:25:45,107 - #9 =
+INFO  15:25:45,107 - #15 3
+INFO  15:25:45,109 - #7 ;
+INFO  15:25:45,110 - #4 }
+INFO  15:25:45,110 - #4 }
+INFO  15:25:45,115 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       x
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_e(
+        ) [VarDeclListSingle_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           x
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator(
+             x
+              IdentList_identLen(
+                IdentLength_ident(
+                 b
+                ) [IdentLength_ident]
+              ) [IdentList_identLen]
+            ) [Designator]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_relopExpr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_num(
+                       3
+                      ) [Factor_num]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_relopExpr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  15:25:45,116 - =====================================================================
+INFO  15:25:45,121 - =====================================================================
+INFO  15:25:45,122 - Parsiranje uspesno zavrseno!

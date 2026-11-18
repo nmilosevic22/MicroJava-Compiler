@@ -1,0 +1,130 @@
+INFO  19:59:37,901 - Compiling source file: C:\Users\milos\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:59:37,923 - #2 program
+INFO  19:59:37,923 - #18 Programcina
+INFO  19:59:37,923 - #6 enum
+INFO  19:59:37,923 - #18 enum_news
+INFO  19:59:37,923 - #3 {
+INFO  19:59:37,924 - #18 a
+INFO  19:59:37,924 - #10 ,
+INFO  19:59:37,924 - #18 b
+INFO  19:59:37,924 - #9 =
+INFO  19:59:37,924 - #15 4
+INFO  19:59:37,924 - #10 ,
+INFO  19:59:37,925 - #18 c
+INFO  19:59:37,925 - #4 }
+INFO  19:59:37,925 - #7 ;
+INFO  19:59:37,925 - #6 enum
+INFO  19:59:37,926 - #18 enum_2
+INFO  19:59:37,926 - #3 {
+INFO  19:59:37,926 - #18 p
+INFO  19:59:37,926 - #10 ,
+INFO  19:59:37,926 - #18 q
+INFO  19:59:37,926 - #10 ,
+INFO  19:59:37,926 - #18 r
+INFO  19:59:37,926 - #4 }
+INFO  19:59:37,926 - #7 ;
+INFO  19:59:37,926 - #3 {
+INFO  19:59:37,927 - #19 void
+INFO  19:59:37,927 - #18 main
+INFO  19:59:37,927 - #13 (
+INFO  19:59:37,927 - #14 )
+INFO  19:59:37,927 - #18 int
+INFO  19:59:37,928 - #18 y
+INFO  19:59:37,928 - #11 [
+INFO  19:59:37,928 - #12 ]
+INFO  19:59:37,928 - #7 ;
+INFO  19:59:37,930 - #3 {
+INFO  19:59:37,931 - #4 }
+INFO  19:59:37,931 - #4 }
+INFO  19:59:37,933 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       enum_news
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           4
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_enum(
+      EnumDeclList(
+        EnumName(
+         enum_2
+        ) [EnumName]
+        EnumDecl(
+         p
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           q
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_more(
+            EnumDecl(
+             r
+              NumAssign_e(
+              ) [NumAssign_e]
+            ) [EnumDecl]
+            EnumDeclMore_e(
+            ) [EnumDeclMore_e]
+          ) [EnumDeclMore_more]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_enum]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_e(
+        ) [VarDeclListSingle_e]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_true(
+            ) [Brackets_true]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  19:59:37,934 - =====================================================================
+INFO  19:59:37,937 - =====================================================================
+INFO  19:59:37,938 - Parsiranje uspesno zavrseno!

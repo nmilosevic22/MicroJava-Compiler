@@ -1,0 +1,245 @@
+INFO  15:33:45,626 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:33:45,649 - #2 program
+INFO  15:33:45,649 - #18 Programcina
+INFO  15:33:45,649 - #6 enum
+INFO  15:33:45,650 - #18 Color
+INFO  15:33:45,650 - #3 {
+INFO  15:33:45,651 - #18 a
+INFO  15:33:45,652 - #10 ,
+INFO  15:33:45,653 - #18 b
+INFO  15:33:45,653 - #9 =
+INFO  15:33:45,653 - #15 4
+INFO  15:33:45,653 - #10 ,
+INFO  15:33:45,653 - #18 c
+INFO  15:33:45,653 - #4 }
+INFO  15:33:45,653 - #7 ;
+INFO  15:33:45,654 - #6 enum
+INFO  15:33:45,655 - #18 Position
+INFO  15:33:45,655 - #3 {
+INFO  15:33:45,655 - #18 p
+INFO  15:33:45,655 - #10 ,
+INFO  15:33:45,655 - #18 q
+INFO  15:33:45,655 - #10 ,
+INFO  15:33:45,655 - #18 r
+INFO  15:33:45,655 - #4 }
+INFO  15:33:45,655 - #7 ;
+INFO  15:33:45,655 - #18 int
+INFO  15:33:45,655 - #18 x
+INFO  15:33:45,656 - #7 ;
+INFO  15:33:45,657 - #3 {
+INFO  15:33:45,658 - #19 void
+INFO  15:33:45,658 - #18 main
+INFO  15:33:45,658 - #13 (
+INFO  15:33:45,658 - #14 )
+INFO  15:33:45,658 - #18 int
+INFO  15:33:45,660 - #18 y
+INFO  15:33:45,660 - #11 [
+INFO  15:33:45,660 - #12 ]
+INFO  15:33:45,660 - #7 ;
+INFO  15:33:45,660 - #18 int
+INFO  15:33:45,660 - #18 c
+INFO  15:33:45,661 - #10 ,
+INFO  15:33:45,661 - #18 a
+INFO  15:33:45,661 - #10 ,
+INFO  15:33:45,661 - #18 b
+INFO  15:33:45,661 - #7 ;
+INFO  15:33:45,661 - #18 bool
+INFO  15:33:45,661 - #18 t
+INFO  15:33:45,661 - #7 ;
+INFO  15:33:45,661 - #18 Color
+INFO  15:33:45,661 - #18 color
+INFO  15:33:45,661 - #7 ;
+INFO  15:33:45,661 - #3 {
+INFO  15:33:45,662 - #25 print
+INFO  15:33:45,662 - #13 (
+INFO  15:33:45,662 - #18 color
+INFO  15:33:45,662 - #14 )
+INFO  15:33:45,667 - #7 ;
+INFO  15:33:45,669 - #4 }
+INFO  15:33:45,672 - #4 }
+INFO  15:33:45,678 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       Color
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_num(
+           4
+          ) [NumAssign_num]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_enum(
+      EnumDeclList(
+        EnumName(
+         Position
+        ) [EnumName]
+        EnumDecl(
+         p
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           q
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_more(
+            EnumDecl(
+             r
+              NumAssign_e(
+              ) [NumAssign_e]
+            ) [EnumDecl]
+            EnumDeclMore_e(
+            ) [EnumDeclMore_e]
+          ) [EnumDeclMore_more]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclList]
+      ConVarEnumDeclList_var(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           x
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+        ConVarEnumDeclList_e(
+        ) [ConVarEnumDeclList_e]
+      ) [ConVarEnumDeclList_var]
+    ) [ConVarEnumDeclList_enum]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_true(
+            VarDeclListSingle_true(
+              VarDeclListSingle_e(
+              ) [VarDeclListSingle_e]
+              VarDeclList(
+                Type(
+                 int
+                ) [Type]
+                VarDecl(
+                 y
+                  Brackets_true(
+                  ) [Brackets_true]
+                ) [VarDecl]
+                VarDeclMore_e(
+                ) [VarDeclMore_e]
+              ) [VarDeclList]
+            ) [VarDeclListSingle_true]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarDecl(
+               c
+                Brackets_e(
+                ) [Brackets_e]
+              ) [VarDecl]
+              VarDeclMore_more(
+                VarDecl(
+                 a
+                  Brackets_e(
+                  ) [Brackets_e]
+                ) [VarDecl]
+                VarDeclMore_more(
+                  VarDecl(
+                   b
+                    Brackets_e(
+                    ) [Brackets_e]
+                  ) [VarDecl]
+                  VarDeclMore_e(
+                  ) [VarDeclMore_e]
+                ) [VarDeclMore_more]
+              ) [VarDeclMore_more]
+            ) [VarDeclList]
+          ) [VarDeclListSingle_true]
+          VarDeclList(
+            Type(
+             bool
+            ) [Type]
+            VarDecl(
+             t
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           Color
+          ) [Type]
+          VarDecl(
+           color
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_print(
+          Expr_arith(
+            CondFact_expr(
+              ExprTern_nonMinus(
+                Term(
+                  Factor_des(
+                    Designator_ident(
+                     color
+                    ) [Designator_ident]
+                  ) [Factor_des]
+                  MulFactor_e(
+                  ) [MulFactor_e]
+                ) [Term]
+                AddTerm_e(
+                ) [AddTerm_e]
+              ) [ExprTern_nonMinus]
+            ) [CondFact_expr]
+          ) [Expr_arith]
+          CommaNumber_e(
+          ) [CommaNumber_e]
+        ) [Statement_print]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  15:33:45,678 - =====================================================================
+ERROR 15:33:45,683 - Print argument type must be a int, char or boolean.  na liniji 11
+INFO  15:33:45,684 - =====================================================================
+ERROR 15:33:45,685 - Parsiranje NIJE uspesno zavrseno!

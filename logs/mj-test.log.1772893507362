@@ -1,0 +1,26 @@
+INFO  15:23:50,646 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:23:50,670 - #2 program
+INFO  15:23:50,670 - #18 Programcina
+INFO  15:23:50,670 - #6 enum
+INFO  15:23:50,671 - #18 x
+INFO  15:23:50,671 - #3 {
+INFO  15:23:50,671 - #18 a
+INFO  15:23:50,671 - #10 ,
+INFO  15:23:50,672 - #18 b
+INFO  15:23:50,672 - #10 ,
+INFO  15:23:50,672 - #18 c
+INFO  15:23:50,672 - #4 }
+INFO  15:23:50,673 - #7 ;
+INFO  15:23:50,673 - #3 {
+INFO  15:23:50,674 - #19 void
+INFO  15:23:50,675 - #18 main
+INFO  15:23:50,675 - #13 (
+INFO  15:23:50,676 - #14 )
+INFO  15:23:50,676 - #18 int
+INFO  15:23:50,676 - #18 x
+INFO  15:23:50,676 - #7 ;
+INFO  15:23:50,678 - #18 x
+INFO  15:23:50,679 - #27 .
+ERROR 15:23:50,679 - 
+Sintaksna greska na liniji 10
+ERROR 15:23:50,679 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

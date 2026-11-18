@@ -1,0 +1,40 @@
+INFO  21:21:28,274 - Compiling source file: C:\Users\milos\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:21:28,297 - #2 program
+INFO  21:21:28,297 - #18 Programcina
+INFO  21:21:28,297 - #6 enum
+INFO  21:21:28,297 - #18 Color
+INFO  21:21:28,297 - #3 {
+INFO  21:21:28,298 - #18 a
+INFO  21:21:28,298 - #10 ,
+INFO  21:21:28,298 - #18 b
+INFO  21:21:28,299 - #9 =
+INFO  21:21:28,299 - #15 4
+INFO  21:21:28,299 - #10 ,
+INFO  21:21:28,299 - #18 c
+INFO  21:21:28,299 - #4 }
+INFO  21:21:28,299 - #7 ;
+INFO  21:21:28,299 - #6 enum
+INFO  21:21:28,300 - #18 Position
+INFO  21:21:28,300 - #3 {
+INFO  21:21:28,300 - #18 p
+INFO  21:21:28,300 - #10 ,
+INFO  21:21:28,300 - #18 q
+INFO  21:21:28,300 - #10 ,
+INFO  21:21:28,300 - #18 r
+INFO  21:21:28,300 - #4 }
+INFO  21:21:28,300 - #7 ;
+INFO  21:21:28,301 - #3 {
+INFO  21:21:28,301 - #19 void
+INFO  21:21:28,301 - #18 main
+INFO  21:21:28,301 - #13 (
+INFO  21:21:28,301 - #14 )
+INFO  21:21:28,301 - #18 int
+INFO  21:21:28,302 - #18 y
+INFO  21:21:28,302 - #11 [
+INFO  21:21:28,302 - #12 ]
+INFO  21:21:28,302 - #10 ,
+INFO  21:21:28,303 - #18 Color
+INFO  21:21:28,303 - #18 curEnum
+ERROR 21:21:28,303 - 
+Sintaksna greska na liniji 7
+ERROR 21:21:28,303 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

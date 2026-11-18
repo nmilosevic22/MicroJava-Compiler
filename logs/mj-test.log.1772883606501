@@ -1,0 +1,76 @@
+INFO  12:37:45,016 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  12:37:45,036 - #2 program
+INFO  12:37:45,037 - #18 Programcina
+INFO  12:37:45,037 - #6 enum
+INFO  12:37:45,038 - #18 x
+INFO  12:37:45,038 - #3 {
+INFO  12:37:45,039 - #18 a
+INFO  12:37:45,039 - #9 =
+INFO  12:37:45,039 - #15 5
+INFO  12:37:45,039 - #10 ,
+INFO  12:37:45,040 - #18 b
+INFO  12:37:45,040 - #10 ,
+INFO  12:37:45,041 - #18 c
+INFO  12:37:45,041 - #4 }
+INFO  12:37:45,043 - #7 ;
+INFO  12:37:45,043 - #3 {
+INFO  12:37:45,044 - #19 void
+INFO  12:37:45,044 - #18 main
+INFO  12:37:45,044 - #13 (
+INFO  12:37:45,044 - #14 )
+INFO  12:37:45,044 - #3 {
+INFO  12:37:45,046 - #4 }
+INFO  12:37:45,046 - #4 }
+INFO  12:37:45,049 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       x
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_num(
+         5
+        ) [NumAssign_num]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  12:37:45,049 - =====================================================================
+ERROR 12:37:45,054 - Enum already defined : a na liniji 3
+ERROR 12:37:45,054 - Enum already defined : b na liniji 3
+ERROR 12:37:45,054 - Enum already defined : c na liniji 3
+INFO  12:37:45,055 - =====================================================================
+ERROR 12:37:45,056 - Parsiranje NIJE uspesno zavrseno!

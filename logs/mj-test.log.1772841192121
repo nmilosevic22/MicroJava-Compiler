@@ -1,0 +1,54 @@
+INFO  00:52:39,106 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:52:39,130 - #2 program
+INFO  00:52:39,130 - #18 Programcina
+INFO  00:52:39,130 - #5 const
+INFO  00:52:39,130 - #18 int
+INFO  00:52:39,130 - #18 pi
+INFO  00:52:39,131 - #9 =
+INFO  00:52:39,131 - #17 c
+INFO  00:52:39,132 - #7 ;
+INFO  00:52:39,133 - #3 {
+INFO  00:52:39,134 - #19 void
+INFO  00:52:39,134 - #18 main
+INFO  00:52:39,134 - #13 (
+INFO  00:52:39,134 - #14 )
+INFO  00:52:39,134 - #3 {
+INFO  00:52:39,135 - #4 }
+INFO  00:52:39,135 - #4 }
+INFO  00:52:39,138 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_const(
+    ConDeclList(
+      Type(
+       int
+      ) [Type]
+      ConDecl(
+       pi
+        Constant_char(
+         c
+        ) [Constant_char]
+      ) [ConDecl]
+      ConDeclElse_e(
+      ) [ConDeclElse_e]
+    ) [ConDeclList]
+    ConVarEnumDeclList_e(
+    ) [ConVarEnumDeclList_e]
+  ) [ConVarEnumDeclList_const]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  00:52:39,139 - =====================================================================
+ERROR 00:52:39,144 - Constant not assignable to declared type for constant : pi na liniji 3
+INFO  00:52:39,144 - =====================================================================
+ERROR 00:52:39,144 - Parsiranje NIJE uspesno zavrseno!

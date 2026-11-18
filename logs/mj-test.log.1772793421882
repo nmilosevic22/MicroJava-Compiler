@@ -1,0 +1,65 @@
+INFO  11:36:38,803 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:36:39,572 - #2 program
+INFO  11:36:39,573 - #18 Programcina
+INFO  11:36:39,573 - #18 int
+INFO  11:36:39,573 - #18 x
+INFO  11:36:39,583 - #11 [
+INFO  11:36:39,583 - #12 ]
+INFO  11:36:39,583 - #7 ;
+INFO  11:36:39,614 - #18 char
+INFO  11:36:39,623 - #18 c
+INFO  11:36:39,623 - #7 ;
+INFO  11:36:39,631 - #3 {
+INFO  11:36:39,639 - #19 void
+INFO  11:36:39,639 - #18 main
+INFO  11:36:39,639 - #13 (
+INFO  11:36:39,648 - #14 )
+INFO  11:36:39,648 - #3 {
+INFO  11:36:39,659 - #4 }
+INFO  11:36:39,668 - #4 }
+INFO  11:36:39,696 - Program(
+ Programcina
+  ConVarEnumDeclList_var(
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl(
+       x
+        Brackets_true(
+        ) [Brackets_true]
+      ) [VarDecl]
+      VarDeclMore_e(
+      ) [VarDeclMore_e]
+    ) [VarDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl(
+         c
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_var]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_e(
+      ) [VarDeclListSingle_e]
+      StatementList_e(
+      ) [StatementList_e]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  11:36:39,696 - =====================================================================
+INFO  11:36:39,696 - Parsiranje uspesno zavrseno!

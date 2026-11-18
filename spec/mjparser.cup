@@ -1,0 +1,286 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+
+init with {:
+	errorDetected = false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, LBRACE, RBRACE, CONST, ENUM, SEMICOLON, COLON, EQUAL, COMMA;
+terminal LBRACKET, RBRACKET, LPARENT, RPARENT;
+terminal Integer NUMBER, BOOL;
+terminal Character CHARACTER;
+terminal String IDENT;
+terminal VOID, NEW, OR, AND, RETURN, READ, PRINT, LENGTH;
+terminal DOT, MINUS, PLUS, MUL, DIV, MOD, INC, DEC; 
+terminal EQ, NEQ, GT, GTEQ, LS, LSEQ, QMARK;
+terminal FANY;
+terminal COUNT;
+terminal MAX;
+
+nonterminal Program, ProgramName, ConVarEnumDeclList, ConDeclList, ConDecl, ConDeclElse, Constant ;
+nonterminal VarDeclList, VarDecl, VarDeclMore, VarDeclListSingle, Brackets;
+nonterminal EnumDeclList, EnumDecl, EnumDeclMore, EnumName, NumAssign;
+nonterminal MethodDecl, StatementList, Statement;
+nonterminal DesignatorStatement, DesignatorList;
+nonterminal ActPars, ActParsSingle, ExprList, CommaNumber;
+nonterminal MinusFlag, FindAnyFlag;
+nonterminal Assignop, Addop, Mulop, Relop;
+nonterminal DesignatorDot;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor, MulFactor, Term, AddTerm, Expr, ExprTern, CondFact, CondQuestion, Decider, Type;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, Method, ArrayBase;
+
+
+Program ::= (Program) PROG ProgramName ConVarEnumDeclList LBRACE MethodDecl RBRACE;
+
+ProgramName ::= (ProgramName) IDENT;
+
+ConVarEnumDeclList ::=  (ConVarEnumDeclList_const) ConDeclList ConVarEnumDeclList
+						|
+						(ConVarEnumDeclList_var) VarDeclList ConVarEnumDeclList
+						|
+						(ConVarEnumDeclList_enum) EnumDeclList ConVarEnumDeclList
+						|
+						(ConVarEnumDeclList_e) /* epsilon */
+						;
+						
+ConDeclList ::= (ConDeclList) CONST Type ConDecl ConDeclElse SEMICOLON ;
+
+ConDecl ::= (ConDecl) IDENT EQUAL Constant ;
+
+ConDeclElse ::= (ConDeclElse_true) COMMA ConDecl ConDeclElse
+				|
+				(ConDeclElse_e) /* e */
+				;
+				
+Constant ::= 	(Constant_num) NUMBER
+				|
+				(Constant_char) CHARACTER
+				|
+				(Constant_bool) BOOL
+				;
+				
+VarDeclListSingle ::= 	(VarDeclListSingle_true) VarDeclList VarDeclListSingle 
+						|
+						(VarDeclListSingle_e) /* e */
+						;
+				
+VarDeclList ::= (VarDeclList) Type VarDecl VarDeclMore SEMICOLON ;
+
+VarDecl ::= (VarDecl) IDENT Brackets ;
+
+VarDeclMore ::= (VarDeclMore_more) COMMA VarDecl VarDeclMore
+				|
+				(VarDeclMore_e) /* e */
+				;
+				
+EnumDeclList ::= (EnumDeclList) ENUM EnumName LBRACE EnumDecl EnumDeclMore RBRACE SEMICOLON ;
+
+EnumName ::= (EnumName) IDENT ;
+
+EnumDecl ::= (EnumDecl) IDENT NumAssign ;
+
+EnumDeclMore ::= 	(EnumDeclMore_more) COMMA EnumDecl EnumDeclMore
+					|
+					(EnumDeclMore_e) /* e */
+					;
+					
+NumAssign ::= 	(NumAssign_num) EQUAL NUMBER 
+				|
+				(NumAssign_e) /* e */
+				;
+
+MethodDecl ::= (MethodDecl) VOID Method LPARENT RPARENT VarDeclListSingle LBRACE StatementList RBRACE ;
+
+Method ::= (Method) IDENT ;
+					
+StatementList ::= 	(StatementList_statements) Statement StatementList 
+					|
+					(StatementList_e) /* e */
+					;
+					
+Statement ::= 	(Statement_desStatement) DesignatorStatement SEMICOLON
+				|
+				(Statement_return) RETURN SEMICOLON
+				|
+				(Statement_read) READ LPARENT Designator RPARENT SEMICOLON
+				|
+				(Statement_print) PRINT LPARENT Expr CommaNumber RPARENT SEMICOLON
+				|
+				(Statement_findAny) DesignatorDot FANY FindAnyFlag LPARENT Expr RPARENT SEMICOLON
+				|
+				(Statement_count) DesignatorDot COUNT LPARENT Expr RPARENT SEMICOLON
+				|
+				(Statement_max) DesignatorDot MAX LPARENT RPARENT SEMICOLON
+				;
+				
+DesignatorDot ::= (DesignatorDot) Designator Assignop Designator DOT ;
+				
+FindAnyFlag ::= (FindAnyFlag) /* e */ ;
+			
+DesignatorStatement ::= (DesignatorStatement) Designator DesignatorList ;
+
+Designator ::= 	(Designator_ident) IDENT
+				|
+				(Designator_dotIdent) Designator DOT IDENT
+				|
+				(Designator_dotLength) Designator DOT LENGTH
+				|
+				(Designator_index) Designator ArrayBase LBRACKET Expr RBRACKET
+				;
+				
+ArrayBase ::=	(ArrayBase) /* e */ ;
+											
+DesignatorList ::= 	(DesignatorList_assign) Assignop Expr
+					|
+					(DesignatorList_noActPars) LPARENT RPARENT
+					|
+					(DesignatorList_actpars) LPARENT ActPars RPARENT
+					|
+					(DesignatorList_inc) INC
+					|
+					(DesignatorList_dec) DEC
+					;
+				
+Expr ::= 	(Expr_arith) CondFact 
+			|
+			(Expr_cond) CondFact QMARK CondQuestion Expr COLON Decider Expr
+			;
+			
+CondQuestion ::= (CondQuestion) /* e */ ;
+
+Decider ::=		(Decider) /* e */ ;
+			
+CondFact ::= 	(CondFact_relopExpr) ExprTern Relop ExprTern
+				|
+				(CondFact_expr) ExprTern
+				;	
+				
+ExprTern ::= 	(ExprTern_nonMinus) Term AddTerm
+				|
+				(ExprTern_minus) MINUS Term MinusFlag AddTerm
+				;
+				
+MinusFlag ::=	(MinusFlag) /* epsilon */ ;
+			
+AddTerm ::= (AddTerm_add) AddTerm Addop Term 
+			|
+			(AddTerm_e) /* e */
+			;			
+			
+Term ::= (Term) Factor MulFactor ; 		
+			
+MulFactor ::= 	(MulFactor_mul) MulFactor Mulop Factor  
+				|
+				(MulFactor_e) /* e */
+				;
+
+Factor ::= 	(Factor_num) NUMBER
+			|
+			(Factor_char) CHARACTER
+			|
+			(Factor_expr) LPARENT Expr RPARENT
+			|
+			(Factor_bool) BOOL
+			|
+			(Factor_des) Designator
+			|
+			(Factor_meth) Designator LPARENT ActParsSingle RPARENT 
+			|
+			(Factor_exprBrackets) NEW Type LBRACKET Expr RBRACKET
+			;	
+				
+ActPars ::= (ActPars) Expr ExprList ;
+
+ActParsSingle ::= 	(ActParsSingle_true) ActPars
+					|
+					(ActParsSingle_e) /* e */
+					;
+
+ExprList ::= 	(ExprList_more) COMMA Expr ExprList 
+				|
+				(ExprList_e) /* e */
+				;
+					
+CommaNumber ::= (CommaNumber_single) COMMA NUMBER
+				|
+				(CommaNumber_e) /* e */
+				;
+
+Addop ::= 	(Addop_minus) MINUS
+			|
+			(Addop_plus) PLUS
+			;
+				
+Mulop ::= 	(Mulop_mul) MUL
+			|
+			(Mulop_div) DIV
+			|
+			(Mulop_mod) MOD
+			;
+			
+Assignop ::= (Assignop) EQUAL ;
+
+Relop ::= 	(Relop_eq) EQ
+			|
+			(Relop_neq) NEQ
+			|
+			(Relop_gt) GT
+			|
+			(Relop_gteq) GTEQ
+			|
+			(Relop_ls) LS
+			|
+			(Relop_lseq) LSEQ
+			;
+				
+Brackets ::= 	(Brackets_true) LBRACKET RBRACKET
+				|
+				(Brackets_e) /* e */
+				;
+
+Type ::= (Type) IDENT;

@@ -1,0 +1,155 @@
+INFO  19:40:49,105 - Compiling source file: C:\Users\Windows\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:40:49,127 - #2 program
+INFO  19:40:49,127 - #18 Programcina
+INFO  19:40:49,127 - #6 enum
+INFO  19:40:49,128 - #18 enum_news
+INFO  19:40:49,128 - #3 {
+INFO  19:40:49,129 - #18 a
+INFO  19:40:49,129 - #10 ,
+INFO  19:40:49,130 - #18 b
+INFO  19:40:49,130 - #10 ,
+INFO  19:40:49,130 - #18 c
+INFO  19:40:49,130 - #4 }
+INFO  19:40:49,131 - #7 ;
+INFO  19:40:49,131 - #18 int
+INFO  19:40:49,131 - #18 x
+INFO  19:40:49,132 - #7 ;
+INFO  19:40:49,133 - #3 {
+INFO  19:40:49,135 - #19 void
+INFO  19:40:49,136 - #18 main
+INFO  19:40:49,136 - #13 (
+INFO  19:40:49,136 - #14 )
+INFO  19:40:49,136 - #18 int
+INFO  19:40:49,137 - #18 x
+INFO  19:40:49,139 - #7 ;
+INFO  19:40:49,139 - #18 int
+INFO  19:40:49,139 - #18 y
+INFO  19:40:49,139 - #7 ;
+INFO  19:40:49,139 - #3 {
+INFO  19:40:49,139 - #18 y
+INFO  19:40:49,139 - #9 =
+INFO  19:40:49,140 - #15 3
+INFO  19:40:49,141 - #7 ;
+INFO  19:40:49,143 - #4 }
+INFO  19:40:49,143 - #4 }
+INFO  19:40:49,150 - Program(
+  ProgramName(
+   Programcina
+  ) [ProgramName]
+  ConVarEnumDeclList_enum(
+    EnumDeclList(
+      EnumName(
+       enum_news
+      ) [EnumName]
+      EnumDecl(
+       a
+        NumAssign_e(
+        ) [NumAssign_e]
+      ) [EnumDecl]
+      EnumDeclMore_more(
+        EnumDecl(
+         b
+          NumAssign_e(
+          ) [NumAssign_e]
+        ) [EnumDecl]
+        EnumDeclMore_more(
+          EnumDecl(
+           c
+            NumAssign_e(
+            ) [NumAssign_e]
+          ) [EnumDecl]
+          EnumDeclMore_e(
+          ) [EnumDeclMore_e]
+        ) [EnumDeclMore_more]
+      ) [EnumDeclMore_more]
+    ) [EnumDeclList]
+    ConVarEnumDeclList_var(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         x
+          Brackets_e(
+          ) [Brackets_e]
+        ) [VarDecl]
+        VarDeclMore_e(
+        ) [VarDeclMore_e]
+      ) [VarDeclList]
+      ConVarEnumDeclList_e(
+      ) [ConVarEnumDeclList_e]
+    ) [ConVarEnumDeclList_var]
+  ) [ConVarEnumDeclList_enum]
+  MethodDeclList(
+    MethodDecl(
+      Method(
+       main
+      ) [Method]
+      VarDeclListSingle_true(
+        VarDeclListSingle_true(
+          VarDeclListSingle_e(
+          ) [VarDeclListSingle_e]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl(
+             x
+              Brackets_e(
+              ) [Brackets_e]
+            ) [VarDecl]
+            VarDeclMore_e(
+            ) [VarDeclMore_e]
+          ) [VarDeclList]
+        ) [VarDeclListSingle_true]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           y
+            Brackets_e(
+            ) [Brackets_e]
+          ) [VarDecl]
+          VarDeclMore_e(
+          ) [VarDeclMore_e]
+        ) [VarDeclList]
+      ) [VarDeclListSingle_true]
+      StatementList_statements(
+        Statement_desStatement(
+          DesignatorStatement(
+            Designator(
+             y
+              IdentList_e(
+              ) [IdentList_e]
+            ) [Designator]
+            DesignatorList_assign(
+              Assignop(
+              ) [Assignop]
+              Expr_arith(
+                CondFact_expr(
+                  ExprTern_nonMinus(
+                    Term(
+                      Factor_num(
+                       3
+                      ) [Factor_num]
+                      MulFactor_e(
+                      ) [MulFactor_e]
+                    ) [Term]
+                    AddTerm_e(
+                    ) [AddTerm_e]
+                  ) [ExprTern_nonMinus]
+                ) [CondFact_expr]
+              ) [Expr_arith]
+            ) [DesignatorList_assign]
+          ) [DesignatorStatement]
+        ) [Statement_desStatement]
+        StatementList_e(
+        ) [StatementList_e]
+      ) [StatementList_statements]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  19:40:49,150 - =====================================================================
+INFO  19:40:49,154 - =====================================================================
+INFO  19:40:49,155 - Parsiranje uspesno zavrseno!
